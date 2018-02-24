@@ -15,3 +15,5 @@ defaults:
       type: listings
     values:
       layout: listings
+
+theme: jekyll-theme-cayman
