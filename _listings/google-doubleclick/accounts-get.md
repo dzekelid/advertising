@@ -1,15 +1,14 @@
 ---
 swagger: "2.0"
 info:
-  title: Ad Exchange Buyer
-  description: Accesses your bidding-account information, submits creatives for validation,
-    finds available direct deals, and retrieves performance reports.
+  title: Ad Exchange Seller
+  description: Accesses the inventory of Ad Exchange seller users and generates reports.
   contact:
     name: Google
     url: https://google.com
-  version: v1.4
+  version: v2.0
 host: www.googleapis.com
-basePath: /adexchangebuyer/v1.4
+basePath: /adexchangeseller/v2.0
 schemes:
 - http
 produces:
@@ -20,8 +19,16 @@ paths:
   /accounts:
     get:
       summary: Get Accounts
-      description: Retrieves the authenticated user's list of accounts
-      operationId: adexchangebuyer.accounts.list
+      description: List all accounts available to this Ad Exchange account
+      operationId: adexchangeseller.accounts.list
+      parameters:
+      - in: query
+        name: maxResults
+        description: The maximum number of accounts to include in the response, used
+          for paging
+      - in: query
+        name: pageToken
+        description: A continuation token, used to page through accounts
       responses:
         200:
           description: OK
@@ -30,177 +37,20 @@ paths:
 definitions:
   Account:
     properties:
-      bidderLocation:
-        description: This is a default description.
-        type: parameters
-      cookieMatchingNid:
-        description: This is a default description.
-        type: parameters
-      cookieMatchingUrl:
-        description: This is a default description.
-        type: parameters
       id:
         description: This is a default description.
         type: parameters
       kind:
-        description: This is a default description.
-        type: parameters
-      maximumActiveCreatives:
-        description: This is a default description.
-        type: parameters
-      maximumTotalQps:
-        description: This is a default description.
-        type: parameters
-      numberActiveCreatives:
-        description: This is a default description.
-        type: parameters
-  AccountsList:
-    properties:
-      items:
-        description: This is a default description.
-        type: parameters
-      kind:
-        description: This is a default description.
-        type: parameters
-  AddOrderDealsRequest:
-    properties:
-      deals:
-        description: This is a default description.
-        type: parameters
-      proposalRevisionNumber:
-        description: This is a default description.
-        type: parameters
-      updateAction:
-        description: This is a default description.
-        type: parameters
-  AddOrderDealsResponse:
-    properties:
-      deals:
-        description: This is a default description.
-        type: parameters
-      proposalRevisionNumber:
-        description: This is a default description.
-        type: parameters
-  AddOrderNotesRequest:
-    properties:
-      notes:
-        description: This is a default description.
-        type: parameters
-  AddOrderNotesResponse:
-    properties:
-      notes:
-        description: This is a default description.
-        type: parameters
-  BillingInfo:
-    properties:
-      accountId:
-        description: This is a default description.
-        type: parameters
-      accountName:
-        description: This is a default description.
-        type: parameters
-      billingId:
-        description: This is a default description.
-        type: parameters
-      kind:
-        description: This is a default description.
-        type: parameters
-  BillingInfoList:
-    properties:
-      items:
-        description: This is a default description.
-        type: parameters
-      kind:
-        description: This is a default description.
-        type: parameters
-  Budget:
-    properties:
-      accountId:
-        description: This is a default description.
-        type: parameters
-      billingId:
-        description: This is a default description.
-        type: parameters
-      budgetAmount:
-        description: This is a default description.
-        type: parameters
-      currencyCode:
-        description: This is a default description.
-        type: parameters
-      id:
-        description: This is a default description.
-        type: parameters
-      kind:
-        description: This is a default description.
-        type: parameters
-  Buyer:
-    properties:
-      accountId:
-        description: This is a default description.
-        type: parameters
-  ContactInformation:
-    properties:
-      email:
         description: This is a default description.
         type: parameters
       name:
         description: This is a default description.
         type: parameters
-  CreateOrdersRequest:
+  Accounts:
     properties:
-      proposals:
+      etag:
         description: This is a default description.
         type: parameters
-      webPropertyCode:
-        description: This is a default description.
-        type: parameters
-  CreateOrdersResponse:
-    properties:
-      proposals:
-        description: This is a default description.
-        type: parameters
-  Creative:
-    properties:
-      HTMLSnippet:
-        description: This is a default description.
-        type: parameters
-      accountId:
-        description: This is a default description.
-        type: parameters
-      adChoicesDestinationUrl:
-        description: This is a default description.
-        type: parameters
-      advertiserId:
-        description: This is a default description.
-        type: parameters
-      advertiserName:
-        description: This is a default description.
-        type: parameters
-      agencyId:
-        description: This is a default description.
-        type: parameters
-      apiUploadTimestamp:
-        description: This is a default description.
-        type: parameters
-      attribute:
-        description: This is a default description.
-        type: parameters
-      buyerCreativeId:
-        description: This is a default description.
-        type: parameters
-      clickThroughUrl:
-        description: This is a default description.
-        type: parameters
-  CreativeDealIds:
-    properties:
-      dealStatuses:
-        description: This is a default description.
-        type: parameters
-      kind:
-        description: This is a default description.
-        type: parameters
-  CreativesList:
-    properties:
       items:
         description: This is a default description.
         type: parameters
@@ -210,330 +60,55 @@ definitions:
       nextPageToken:
         description: This is a default description.
         type: parameters
-  DealServingMetadata:
-    properties: []
-  DealServingMetadataDealPauseStatus:
+  AdClient:
     properties:
-      buyerPauseReason:
+      arcOptIn:
         description: This is a default description.
         type: parameters
-      firstPausedBy:
+      id:
         description: This is a default description.
         type: parameters
-      hasBuyerPaused:
+      kind:
         description: This is a default description.
         type: parameters
-      hasSellerPaused:
+      productCode:
         description: This is a default description.
         type: parameters
-      sellerPauseReason:
+      supportsReporting:
         description: This is a default description.
         type: parameters
-  DealTerms:
+  AdClients:
     properties:
-      brandingType:
+      etag:
         description: This is a default description.
         type: parameters
-      crossListedExternalDealIdType:
+      items:
         description: This is a default description.
         type: parameters
-      description:
+      kind:
         description: This is a default description.
         type: parameters
-      estimatedImpressionsPerDay:
+      nextPageToken:
         description: This is a default description.
         type: parameters
-      sellerTimeZone:
-        description: This is a default description.
-        type: parameters
-  DealTermsGuaranteedFixedPriceTerms:
-    properties:
-      fixedPrices:
-        description: This is a default description.
-        type: parameters
-      guaranteedImpressions:
-        description: This is a default description.
-        type: parameters
-      guaranteedLooks:
-        description: This is a default description.
-        type: parameters
-      minimumDailyLooks:
-        description: This is a default description.
-        type: parameters
-  DealTermsGuaranteedFixedPriceTermsBillingInfo:
-    properties:
-      currencyConversionTimeMs:
-        description: This is a default description.
-        type: parameters
-      dfpLineItemId:
-        description: This is a default description.
-        type: parameters
-      originalContractedQuantity:
-        description: This is a default description.
-        type: parameters
-  DealTermsNonGuaranteedAuctionTerms:
-    properties:
-      autoOptimizePrivateAuction:
-        description: This is a default description.
-        type: parameters
-      reservePricePerBuyers:
-        description: This is a default description.
-        type: parameters
-  DealTermsNonGuaranteedFixedPriceTerms:
-    properties:
-      fixedPrices:
-        description: This is a default description.
-        type: parameters
-  DealTermsRubiconNonGuaranteedTerms:
-    properties: []
-  DeleteOrderDealsRequest:
-    properties:
-      dealIds:
-        description: This is a default description.
-        type: parameters
-      proposalRevisionNumber:
-        description: This is a default description.
-        type: parameters
-      updateAction:
-        description: This is a default description.
-        type: parameters
-  DeleteOrderDealsResponse:
-    properties:
-      deals:
-        description: This is a default description.
-        type: parameters
-      proposalRevisionNumber:
-        description: This is a default description.
-        type: parameters
-  DeliveryControl:
-    properties:
-      creativeBlockingLevel:
-        description: This is a default description.
-        type: parameters
-      deliveryRateType:
-        description: This is a default description.
-        type: parameters
-      frequencyCaps:
-        description: This is a default description.
-        type: parameters
-  DeliveryControlFrequencyCap:
-    properties:
-      maxImpressions:
-        description: This is a default description.
-        type: parameters
-      numTimeUnits:
-        description: This is a default description.
-        type: parameters
-      timeUnitType:
-        description: This is a default description.
-        type: parameters
-  Dimension:
-    properties:
-      dimensionType:
-        description: This is a default description.
-        type: parameters
-      dimensionValues:
-        description: This is a default description.
-        type: parameters
-  DimensionDimensionValue:
+  Alert:
     properties:
       id:
         description: This is a default description.
         type: parameters
-      name:
-        description: This is a default description.
-        type: parameters
-      percentage:
-        description: This is a default description.
-        type: parameters
-  EditAllOrderDealsRequest:
-    properties:
-      deals:
-        description: This is a default description.
-        type: parameters
-      proposalRevisionNumber:
-        description: This is a default description.
-        type: parameters
-      updateAction:
-        description: This is a default description.
-        type: parameters
-  EditAllOrderDealsResponse:
-    properties:
-      deals:
-        description: This is a default description.
-        type: parameters
-      orderRevisionNumber:
-        description: This is a default description.
-        type: parameters
-  GetOffersResponse:
-    properties:
-      products:
-        description: This is a default description.
-        type: parameters
-  GetOrderDealsResponse:
-    properties:
-      deals:
-        description: This is a default description.
-        type: parameters
-  GetOrderNotesResponse:
-    properties:
-      notes:
-        description: This is a default description.
-        type: parameters
-  GetOrdersResponse:
-    properties:
-      proposals:
-        description: This is a default description.
-        type: parameters
-  GetPublisherProfilesByAccountIdResponse:
-    properties:
-      profiles:
-        description: This is a default description.
-        type: parameters
-  MarketplaceDeal:
-    properties:
-      creationTimeMs:
-        description: This is a default description.
-        type: parameters
-      creativePreApprovalPolicy:
-        description: This is a default description.
-        type: parameters
-      creativeSafeFrameCompatibility:
-        description: This is a default description.
-        type: parameters
-      dealId:
-        description: This is a default description.
-        type: parameters
-      externalDealId:
-        description: This is a default description.
-        type: parameters
-      flightEndTimeMs:
-        description: This is a default description.
-        type: parameters
-      flightStartTimeMs:
-        description: This is a default description.
-        type: parameters
-      inventoryDescription:
-        description: This is a default description.
-        type: parameters
-      isRfpTemplate:
-        description: This is a default description.
-        type: parameters
       kind:
         description: This is a default description.
         type: parameters
-  MarketplaceDealParty:
-    properties: []
-  MarketplaceLabel:
-    properties:
-      accountId:
+      message:
         description: This is a default description.
         type: parameters
-      createTimeMs:
+      severity:
         description: This is a default description.
         type: parameters
-      label:
+      type:
         description: This is a default description.
         type: parameters
-  MarketplaceNote:
-    properties:
-      creatorRole:
-        description: This is a default description.
-        type: parameters
-      dealId:
-        description: This is a default description.
-        type: parameters
-      kind:
-        description: This is a default description.
-        type: parameters
-      note:
-        description: This is a default description.
-        type: parameters
-      noteId:
-        description: This is a default description.
-        type: parameters
-      proposalId:
-        description: This is a default description.
-        type: parameters
-      proposalRevisionNumber:
-        description: This is a default description.
-        type: parameters
-      timestampMs:
-        description: This is a default description.
-        type: parameters
-  PerformanceReport:
-    properties:
-      bidRate:
-        description: This is a default description.
-        type: parameters
-      bidRequestRate:
-        description: This is a default description.
-        type: parameters
-      calloutStatusRate:
-        description: This is a default description.
-        type: parameters
-      cookieMatcherStatusRate:
-        description: This is a default description.
-        type: parameters
-      creativeStatusRate:
-        description: This is a default description.
-        type: parameters
-      filteredBidRate:
-        description: This is a default description.
-        type: parameters
-      hostedMatchStatusRate:
-        description: This is a default description.
-        type: parameters
-      inventoryMatchRate:
-        description: This is a default description.
-        type: parameters
-      kind:
-        description: This is a default description.
-        type: parameters
-      latency50thPercentile:
-        description: This is a default description.
-        type: parameters
-  PerformanceReportList:
-    properties:
-      kind:
-        description: This is a default description.
-        type: parameters
-      performanceReport:
-        description: This is a default description.
-        type: parameters
-  PretargetingConfig:
-    properties:
-      billingId:
-        description: This is a default description.
-        type: parameters
-      configId:
-        description: This is a default description.
-        type: parameters
-      configName:
-        description: This is a default description.
-        type: parameters
-      creativeType:
-        description: This is a default description.
-        type: parameters
-      dimensions:
-        description: This is a default description.
-        type: parameters
-      excludedContentLabels:
-        description: This is a default description.
-        type: parameters
-      excludedGeoCriteriaIds:
-        description: This is a default description.
-        type: parameters
-      excludedPlacements:
-        description: This is a default description.
-        type: parameters
-      excludedUserLists:
-        description: This is a default description.
-        type: parameters
-      excludedVerticals:
-        description: This is a default description.
-        type: parameters
-  PretargetingConfigList:
+  Alerts:
     properties:
       items:
         description: This is a default description.
@@ -541,220 +116,173 @@ definitions:
       kind:
         description: This is a default description.
         type: parameters
-  Price:
+  CustomChannel:
     properties:
-      amountMicros:
+      code:
+        description: This is a default description.
+        type: parameters
+      id:
+        description: This is a default description.
+        type: parameters
+      kind:
+        description: This is a default description.
+        type: parameters
+      name:
+        description: This is a default description.
+        type: parameters
+      targetingInfo:
+        description: This is a default description.
+        type: parameters
+  CustomChannels:
+    properties:
+      etag:
+        description: This is a default description.
+        type: parameters
+      items:
+        description: This is a default description.
+        type: parameters
+      kind:
+        description: This is a default description.
+        type: parameters
+      nextPageToken:
+        description: This is a default description.
+        type: parameters
+  Metadata:
+    properties:
+      items:
+        description: This is a default description.
+        type: parameters
+      kind:
+        description: This is a default description.
+        type: parameters
+  PreferredDeal:
+    properties:
+      advertiserName:
+        description: This is a default description.
+        type: parameters
+      buyerNetworkName:
         description: This is a default description.
         type: parameters
       currencyCode:
         description: This is a default description.
         type: parameters
-      expectedCpmMicros:
+      endTime:
         description: This is a default description.
         type: parameters
-      pricingType:
+      fixedCpm:
         description: This is a default description.
         type: parameters
-  PricePerBuyer:
-    properties:
-      auctionTier:
-        description: This is a default description.
-        type: parameters
-  PrivateData:
-    properties:
-      referenceId:
-        description: This is a default description.
-        type: parameters
-      referencePayload:
-        description: This is a default description.
-        type: parameters
-  Product:
-    properties:
-      creationTimeMs:
-        description: This is a default description.
-        type: parameters
-      creatorContacts:
-        description: This is a default description.
-        type: parameters
-      flightEndTimeMs:
-        description: This is a default description.
-        type: parameters
-      flightStartTimeMs:
-        description: This is a default description.
-        type: parameters
-      hasCreatorSignedOff:
-        description: This is a default description.
-        type: parameters
-      inventorySource:
+      id:
         description: This is a default description.
         type: parameters
       kind:
         description: This is a default description.
         type: parameters
-      labels:
+      startTime:
         description: This is a default description.
         type: parameters
-      lastUpdateTimeMs:
-        description: This is a default description.
-        type: parameters
-      legacyOfferId:
-        description: This is a default description.
-        type: parameters
-  Proposal:
+  PreferredDeals:
     properties:
-      buyerContacts:
-        description: This is a default description.
-        type: parameters
-      dbmAdvertiserIds:
-        description: This is a default description.
-        type: parameters
-      hasBuyerSignedOff:
-        description: This is a default description.
-        type: parameters
-      hasSellerSignedOff:
-        description: This is a default description.
-        type: parameters
-      inventorySource:
-        description: This is a default description.
-        type: parameters
-      isRenegotiating:
-        description: This is a default description.
-        type: parameters
-      isSetupComplete:
+      items:
         description: This is a default description.
         type: parameters
       kind:
         description: This is a default description.
         type: parameters
-      labels:
-        description: This is a default description.
-        type: parameters
-      lastUpdaterOrCommentorRole:
-        description: This is a default description.
-        type: parameters
-  PublisherProfileApiProto:
+  Report:
     properties:
-      accountId:
+      averages:
         description: This is a default description.
         type: parameters
-      audience:
-        description: This is a default description.
-        type: parameters
-      buyerPitchStatement:
-        description: This is a default description.
-        type: parameters
-      directContact:
-        description: This is a default description.
-        type: parameters
-      exchange:
-        description: This is a default description.
-        type: parameters
-      googlePlusLink:
-        description: This is a default description.
-        type: parameters
-      isParent:
-        description: This is a default description.
-        type: parameters
-      isPublished:
+      headers:
         description: This is a default description.
         type: parameters
       kind:
         description: This is a default description.
         type: parameters
-      logoUrl:
+      rows:
         description: This is a default description.
         type: parameters
-  PublisherProvidedForecast:
+      totalMatchedRows:
+        description: This is a default description.
+        type: parameters
+      totals:
+        description: This is a default description.
+        type: parameters
+      warnings:
+        description: This is a default description.
+        type: parameters
+  ReportingMetadataEntry:
     properties:
-      dimensions:
+      compatibleDimensions:
         description: This is a default description.
         type: parameters
-      weeklyImpressions:
+      compatibleMetrics:
         description: This is a default description.
         type: parameters
-      weeklyUniques:
+      id:
         description: This is a default description.
         type: parameters
-  Seller:
+      kind:
+        description: This is a default description.
+        type: parameters
+      requiredDimensions:
+        description: This is a default description.
+        type: parameters
+      requiredMetrics:
+        description: This is a default description.
+        type: parameters
+      supportedProducts:
+        description: This is a default description.
+        type: parameters
+  SavedReport:
     properties:
-      accountId:
+      id:
         description: This is a default description.
         type: parameters
-      subAccountId:
+      kind:
         description: This is a default description.
         type: parameters
-  SharedTargeting:
+      name:
+        description: This is a default description.
+        type: parameters
+  SavedReports:
     properties:
-      exclusions:
+      etag:
         description: This is a default description.
         type: parameters
-      inclusions:
+      items:
         description: This is a default description.
         type: parameters
-      key:
+      kind:
         description: This is a default description.
         type: parameters
-  TargetingValue:
+      nextPageToken:
+        description: This is a default description.
+        type: parameters
+  UrlChannel:
     properties:
-      longValue:
+      id:
         description: This is a default description.
         type: parameters
-      stringValue:
+      kind:
         description: This is a default description.
         type: parameters
-  TargetingValueCreativeSize:
+      urlPattern:
+        description: This is a default description.
+        type: parameters
+  UrlChannels:
     properties:
-      companionSizes:
+      etag:
         description: This is a default description.
         type: parameters
-      creativeSizeType:
+      items:
         description: This is a default description.
         type: parameters
-      skippableAdType:
+      kind:
         description: This is a default description.
         type: parameters
-  TargetingValueDayPartTargeting:
-    properties:
-      dayParts:
-        description: This is a default description.
-        type: parameters
-      timeZoneType:
-        description: This is a default description.
-        type: parameters
-  TargetingValueDayPartTargetingDayPart:
-    properties:
-      dayOfWeek:
-        description: This is a default description.
-        type: parameters
-      endHour:
-        description: This is a default description.
-        type: parameters
-      endMinute:
-        description: This is a default description.
-        type: parameters
-      startHour:
-        description: This is a default description.
-        type: parameters
-      startMinute:
-        description: This is a default description.
-        type: parameters
-  TargetingValueSize:
-    properties:
-      height:
-        description: This is a default description.
-        type: parameters
-      width:
-        description: This is a default description.
-        type: parameters
-  UpdatePrivateAuctionProposalRequest:
-    properties:
-      externalDealId:
-        description: This is a default description.
-        type: parameters
-      proposalRevisionNumber:
-        description: This is a default description.
-        type: parameters
-      updateAction:
+      nextPageToken:
         description: This is a default description.
         type: parameters
 x-streamrank:
