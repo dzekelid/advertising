@@ -1,5 +1,4 @@
 ---
----
 name: ATu0026T Dev Program
 description: ATamp;T Developer Program is the API platform for all ATamp;T devices
   and the ATamp;T network. nbsp;ATamp;T provides device, call, location, messaging,
@@ -76,6 +75,4 @@ maintainers:
 - FN: Kin Lane
   x-twitter: apievangelist
   email: info@apievangelist.com
-...
-
 ---
