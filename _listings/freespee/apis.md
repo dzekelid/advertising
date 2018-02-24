@@ -1,5 +1,4 @@
 ---
----
 name: Freespee
 description: Freespee offers location-based, mobile click-to-call advertising and
   analytics that enable enterprises and business owners to confidently shift ad spend
@@ -47,6 +46,4 @@ maintainers:
 - FN: Kin Lane
   x-twitter: apievangelist
   email: info@apievangelist.com
-...
-
 ---
