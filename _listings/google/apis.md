@@ -1,5 +1,4 @@
 ---
----
 name: Google
 description: Google Custom Search enables you to create a search engine for your website,
   your blog, or a collection of websites. You can configure your engine to search
@@ -97,6 +96,4 @@ maintainers:
 - FN: Kin Lane
   x-twitter: apievangelist
   email: info@apievangelist.com
-...
-
 ---
