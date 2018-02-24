@@ -1,5 +1,4 @@
 ---
----
 name: Facebook
 description: Facebook is an online social networking service that allows its users
   to connect with friends and family as well as make new connections. It provides
@@ -85,6 +84,4 @@ maintainers:
 - FN: Kin Lane
   x-twitter: apievangelist
   email: info@apievangelist.com
-...
-
 ---
