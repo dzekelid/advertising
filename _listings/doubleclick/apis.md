@@ -1,5 +1,4 @@
 ---
----
 name: DoubleClick
 description: 'DoubleClick is a provider of digital marketing technology and services.
   Companies come to  DoubleClick for expertise in ad serving, media, video, search
@@ -29,6 +28,4 @@ maintainers:
 - FN: Kin Lane
   x-twitter: apievangelist
   email: info@apievangelist.com
-...
-
 ---
