@@ -1,5 +1,4 @@
 ---
----
 name: Google Adsense
 description: AdSense is a free, simple way to make money online by placing ads on
   your website. Ads are reviewed to ensure they???re high quality and relevant to
@@ -674,6 +673,4 @@ maintainers:
 - FN: Kin Lane
   x-twitter: apievangelist
   email: info@apievangelist.com
-...
-
 ---
