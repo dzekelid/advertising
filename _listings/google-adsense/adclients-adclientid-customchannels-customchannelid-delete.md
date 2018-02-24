@@ -1,5 +1,4 @@
 ---
----
 swagger: "2.0"
 info:
   title: AdSense Host
@@ -269,6 +268,4 @@ x-streamrank:
   last_run: ""
   days_run: 0
   minute_run: 0
-...
-
 ---
