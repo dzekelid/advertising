@@ -1,5 +1,4 @@
 ---
----
 name: Airpush
 description: Airpush???s Conversion Optimizer is a revolutionary new product that
   dramatically increases mobile campaign performance for advertisers of all types.
@@ -37,6 +36,4 @@ maintainers:
 - FN: Kin Lane
   x-twitter: apievangelist
   email: info@apievangelist.com
-...
-
 ---
