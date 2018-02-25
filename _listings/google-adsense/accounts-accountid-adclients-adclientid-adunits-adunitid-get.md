@@ -1,15 +1,14 @@
 ---
 swagger: "2.0"
 info:
-  title: AdSense Host
-  description: Generates performance reports, generates ad codes, and provides publisher
-    management capabilities for AdSense Hosts.
+  title: AdSense Management
+  description: Accesses AdSense publishers' inventory and generates performance reports.
   contact:
     name: Google
     url: https://google.com
-  version: v4.1
+  version: v1.4
 host: www.googleapis.com
-basePath: /adsensehost/v4.1
+basePath: /adsense/v1.4
 schemes:
 - http
 produces:
@@ -19,27 +18,31 @@ consumes:
 paths:
   /accounts/{accountId}/adclients/{adClientId}/adunits/{adUnitId}:
     get:
-      summary: Get Ad Unit
-      description: Get the specified host ad unit in this AdSense account
-      operationId: adsensehost.accounts.adunits.get
+      summary: ""
+      description: Gets the specified ad unit in the specified ad client for the specified
+        account
+      operationId: adsense.accounts.adunits.get
       parameters:
       - in: path
         name: accountId
-        description: Account which contains the ad unit
+        description: Account to which the ad client belongs
       - in: path
         name: adClientId
-        description: Ad client for which to get ad unit
+        description: Ad client for which to get the ad unit
       - in: path
         name: adUnitId
-        description: Ad unit to get
+        description: Ad unit to retrieve
       responses:
         200:
           description: OK
       tags:
-      - ad unit
+      - ""
 definitions:
   Account:
     properties:
+      creation_time:
+        description: This is a default description.
+        type: parameters
       id:
         description: This is a default description.
         type: parameters
@@ -49,7 +52,13 @@ definitions:
       name:
         description: This is a default description.
         type: parameters
-      status:
+      premium:
+        description: This is a default description.
+        type: parameters
+      subAccounts:
+        description: This is a default description.
+        type: parameters
+      timezone:
         description: This is a default description.
         type: parameters
   Accounts:
@@ -61,6 +70,9 @@ definitions:
         description: This is a default description.
         type: parameters
       kind:
+        description: This is a default description.
+        type: parameters
+      nextPageToken:
         description: This is a default description.
         type: parameters
   AdClient:
@@ -124,6 +136,9 @@ definitions:
       contentAdsSettings:
         description: This is a default description.
         type: parameters
+      feedAdsSettings:
+        description: This is a default description.
+        type: parameters
       id:
         description: This is a default description.
         type: parameters
@@ -134,6 +149,9 @@ definitions:
         description: This is a default description.
         type: parameters
       name:
+        description: This is a default description.
+        type: parameters
+      savedStyleId:
         description: This is a default description.
         type: parameters
       status:
@@ -153,33 +171,61 @@ definitions:
       nextPageToken:
         description: This is a default description.
         type: parameters
-  AssociationSession:
+  AdsenseReportsGenerateResponse:
     properties:
-      accountId:
+      averages:
         description: This is a default description.
         type: parameters
-      id:
+      endDate:
+        description: This is a default description.
+        type: parameters
+      headers:
         description: This is a default description.
         type: parameters
       kind:
         description: This is a default description.
         type: parameters
-      productCodes:
+      rows:
         description: This is a default description.
         type: parameters
-      redirectUrl:
+      startDate:
         description: This is a default description.
         type: parameters
-      status:
+      totalMatchedRows:
         description: This is a default description.
         type: parameters
-      userLocale:
+      totals:
         description: This is a default description.
         type: parameters
-      websiteLocale:
+      warnings:
         description: This is a default description.
         type: parameters
-      websiteUrl:
+  Alert:
+    properties:
+      id:
+        description: This is a default description.
+        type: parameters
+      isDismissible:
+        description: This is a default description.
+        type: parameters
+      kind:
+        description: This is a default description.
+        type: parameters
+      message:
+        description: This is a default description.
+        type: parameters
+      severity:
+        description: This is a default description.
+        type: parameters
+      type:
+        description: This is a default description.
+        type: parameters
+  Alerts:
+    properties:
+      items:
+        description: This is a default description.
+        type: parameters
+      kind:
         description: This is a default description.
         type: parameters
   CustomChannel:
@@ -196,6 +242,9 @@ definitions:
       name:
         description: This is a default description.
         type: parameters
+      targetingInfo:
+        description: This is a default description.
+        type: parameters
   CustomChannels:
     properties:
       etag:
@@ -210,27 +259,110 @@ definitions:
       nextPageToken:
         description: This is a default description.
         type: parameters
-  Report:
+  Metadata:
     properties:
-      averages:
-        description: This is a default description.
-        type: parameters
-      headers:
+      items:
         description: This is a default description.
         type: parameters
       kind:
         description: This is a default description.
         type: parameters
-      rows:
+  Payment:
+    properties:
+      id:
         description: This is a default description.
         type: parameters
-      totalMatchedRows:
+      kind:
         description: This is a default description.
         type: parameters
-      totals:
+      paymentAmount:
         description: This is a default description.
         type: parameters
-      warnings:
+      paymentAmountCurrencyCode:
+        description: This is a default description.
+        type: parameters
+      paymentDate:
+        description: This is a default description.
+        type: parameters
+  Payments:
+    properties:
+      items:
+        description: This is a default description.
+        type: parameters
+      kind:
+        description: This is a default description.
+        type: parameters
+  ReportingMetadataEntry:
+    properties:
+      compatibleDimensions:
+        description: This is a default description.
+        type: parameters
+      compatibleMetrics:
+        description: This is a default description.
+        type: parameters
+      id:
+        description: This is a default description.
+        type: parameters
+      kind:
+        description: This is a default description.
+        type: parameters
+      requiredDimensions:
+        description: This is a default description.
+        type: parameters
+      requiredMetrics:
+        description: This is a default description.
+        type: parameters
+      supportedProducts:
+        description: This is a default description.
+        type: parameters
+  SavedAdStyle:
+    properties:
+      id:
+        description: This is a default description.
+        type: parameters
+      kind:
+        description: This is a default description.
+        type: parameters
+      name:
+        description: This is a default description.
+        type: parameters
+  SavedAdStyles:
+    properties:
+      etag:
+        description: This is a default description.
+        type: parameters
+      items:
+        description: This is a default description.
+        type: parameters
+      kind:
+        description: This is a default description.
+        type: parameters
+      nextPageToken:
+        description: This is a default description.
+        type: parameters
+  SavedReport:
+    properties:
+      id:
+        description: This is a default description.
+        type: parameters
+      kind:
+        description: This is a default description.
+        type: parameters
+      name:
+        description: This is a default description.
+        type: parameters
+  SavedReports:
+    properties:
+      etag:
+        description: This is a default description.
+        type: parameters
+      items:
+        description: This is a default description.
+        type: parameters
+      kind:
+        description: This is a default description.
+        type: parameters
+      nextPageToken:
         description: This is a default description.
         type: parameters
   UrlChannel:
