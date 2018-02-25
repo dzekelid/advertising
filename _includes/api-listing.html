@@ -1,6 +1,6 @@
 <div class="taggedLinkCards__cards">
   {% for item in listing_object %}
-    {{ item.path }}
+    relative_directory: {{ item.relative_directory }}
     {% if item.swagger %}
       {% if item.swagger == "2.0" %}
 
@@ -13,6 +13,7 @@
 
          {% for entry in listing_object %}
            {% if entry.name %}
+           relative_directory: {{ entry.relative_directory }}
             {% for api in entry.apis %}
                {% if item.info.title == api.name %}
                  {% assign api_name = entry.name %}
