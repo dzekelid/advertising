@@ -12,7 +12,7 @@
 
          {% for entry in listing_object %}
            {% if entry.name %}
-           name: {{ entry.name }}
+           names: {{ entry[0] }}
             {% for api in entry.apis %}
                {% if item.info.title == api.name %}
                  {% assign api_name = entry.name %}
