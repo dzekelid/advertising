@@ -6,7 +6,7 @@
       </div>
       <div class="APIDetailHeader__right">
          <h1 class="APIDetailHeader__title">{{ page.name }}</h1>
-         <h2 class="APIDetailHeader__subtitle">{{ page.description }}</h2>
+         <h2 class="APIDetailHeader__subtitle">{{ page.description | replace: "???","'" }}</h2>
          <div class="APIDetailHeader__dateContainer">
             <p class="APIDetailHeader__dateCallout">Posted on:</p>
             <p class="APIDetailHeader__date">{{ page.modified | date: %b %y" }}</p>
