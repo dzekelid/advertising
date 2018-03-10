@@ -1,5 +1,4 @@
 
-page: {{ page }}<br />
 <section class="APIDetailHeader  APIDetailHeader--extra-top-padding ">
    <div class="APIDetailHeader__container">
       <div class="APIDetailHeader__left">
@@ -87,3 +86,13 @@ page: {{ page }}<br />
 
    </div>
 </section>
+
+
+{% for item in site.listings %}
+  HERE: {{ item[0] }} == {{ page.x-collection-name }} <br />
+  {% if item.swagger %}
+    {% if item.swagger == "2.0" %}
+
+    {% endif %}
+  {% endif %}
+{% endfor %}
