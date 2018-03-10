@@ -61,7 +61,7 @@ apis:
   tags: Advertising
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/advertising/master/_listings/npr/sponsorship-v2-ads-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/advertising/master/_listings/npr/stationfinder-v3-stations-stationid-get.md
 x-common:
 - type: x-base
   url: http://api.npr.org/
