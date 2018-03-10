@@ -1,14 +1,16 @@
+
+page: {{ page }}<br />
 <section class="APIDetailHeader  APIDetailHeader--extra-top-padding ">
    <div class="APIDetailHeader__container">
       <div class="APIDetailHeader__left">
          <img src="{{ apis_json.image }}" alt="{{ page.info.title }}" class="APIDetailHeader__image">
       </div>
       <div class="APIDetailHeader__right">
-         <h1 class="APIDetailHeader__title">{{ path.name }}</h1>
-         <h2 class="APIDetailHeader__subtitle">{{ path.description }}</h2>
+         <h1 class="APIDetailHeader__title">{{ page.name }}</h1>
+         <h2 class="APIDetailHeader__subtitle">{{ page.description }}</h2>
          <div class="APIDetailHeader__dateContainer">
             <p class="APIDetailHeader__dateCallout">Posted on:</p>
-            <p class="APIDetailHeader__date">{{ path.modified | date: %b %y" }}</p>
+            <p class="APIDetailHeader__date">{{ page.modified | date: %b %y" }}</p>
          </div>
       </div>
    </div>
