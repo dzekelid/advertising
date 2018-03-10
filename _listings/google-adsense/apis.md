@@ -22,7 +22,17 @@ created: "2018-03-10"
 modified: "2018-03-10"
 url: https://raw.githubusercontent.com/streamdata-gallery/advertising/master/_listings/google-adsense/apis.yaml
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: Google Adsense API
+  description: AdSense is a free, simple way to make money online by placing ads on
+    your website
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-adsense.png
+  humanURL: https://developers.google.com/adsense/
+  baseURL: https:///
+  tags: Advertising
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery/advertising/master/_listings/google-adsense/reports-get.md
 x-common:
 - type: x-blog
   url: http://googleadsdeveloper.blogspot.com/search/label/adsense_api
