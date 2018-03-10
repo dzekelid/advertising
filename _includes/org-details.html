@@ -95,7 +95,7 @@
     {% if item.swagger == "2.0" %}
       {% if page.name == item.x-collection-name %}
         {% for path in item.paths %}
-          {% assign path_count = path_count | plus: 1 %}
+          {% increment path_count %}
         {% endfor %}
       {% endif %}
     {% endif %}
