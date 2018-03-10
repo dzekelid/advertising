@@ -1,5 +1,6 @@
 <div class="taggedLinkCards__cards" id="listing">
   {% for item in listing_object %}
+  {{ item }}<br /><br />
     {% if item.swagger %}
       {% if item.swagger == "2.0" %}
 
