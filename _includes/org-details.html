@@ -88,45 +88,61 @@
 </section>
 
 
-<section class="APIDescription">
-   <div class="APIDesciption__container">
-      <h2 class="APIDescription__header">APIs</h2>
+<!-- See how many paths we have-->
+{% assign path_count = 0 %}
+{% for item in site.listings %}
+  {% if item.swagger %}
+    {% if item.swagger == "2.0" %}
+      {% if page.name == item.x-collection-name %}
+        {% for path in item.paths %}
+          {% assign path_count = path_count + 1 %}
+        {% endfor %}
+      {% endif %}
+    {% endif %}
+  {% endif %}
+{% endfor %}
 
-      {% for item in site.listings %}
-        {% if item.swagger %}
-          {% if item.swagger == "2.0" %}
-            {% if page.name == item.x-collection-name %}
-              {% for path in item.paths %}
+{% if path_count > 0 %}
+  <section class="APIDescription">
+     <div class="APIDesciption__container">
+        <h2 class="APIDescription__header">APIs</h2>
 
-                {% assign path_name = path[0] %}
-                {% assign api_path_slug = path_name | lstrip | rstrip | remove_first: "/" | replace: '{','' | replace: '}','' | replace: ' ','-' | replace: '/','-' | replace: '&','-' | replace: ':','' | replace: '.','-' | replace: '=','-' | replace: '?','-' | replace: '_','-' | replace: '---','-' | replace: '--','-' | downcase %}
-                {% for method in path[1] %}
+        {% for item in site.listings %}
+          {% if item.swagger %}
+            {% if item.swagger == "2.0" %}
+              {% if page.name == item.x-collection-name %}
+                {% for path in item.paths %}
 
-                  {% assign method_details = method[1] %}
-                  {% assign verb = method[0] %}
-                  {% assign api_path_slug = api_path_slug | append: '-' | append: verb | replace: '_','-' | replace: '---','-' | replace: '--','-' | downcase %}
-                  {% assign api_path_summary = method_details.summary %}
-                  {% assign api_path_description = method_details.description %}
-                  {% assign api_path_parameters = method_details.parameters %}
-                  {% assign api_path_tags = method_details.tags %}
+                  {% assign path_name = path[0] %}
+                  {% assign api_path_slug = path_name | lstrip | rstrip | remove_first: "/" | replace: '{','' | replace: '}','' | replace: ' ','-' | replace: '/','-' | replace: '&','-' | replace: ':','' | replace: '.','-' | replace: '=','-' | replace: '?','-' | replace: '_','-' | replace: '---','-' | replace: '--','-' | downcase %}
+                  {% for method in path[1] %}
 
-                  <div class="APIDescription__table">
-                     <div class="APIDescription__tableHeader">
-                        <p class="APIDescription__tableHeaderCopy">{{ api_path_summary }} ({{ verb }})</p>
-                     </div>
-                     <div class="APIDescription__tableBody">
-                        <div class="APIDescription__tableBodyCopy">
-                           {{ path_name }}
-                        </div>
-                     </div>
-                  </div>
+                    {% assign method_details = method[1] %}
+                    {% assign verb = method[0] %}
+                    {% assign api_path_slug = api_path_slug | append: '-' | append: verb | replace: '_','-' | replace: '---','-' | replace: '--','-' | downcase %}
+                    {% assign api_path_summary = method_details.summary %}
+                    {% assign api_path_description = method_details.description %}
+                    {% assign api_path_parameters = method_details.parameters %}
+                    {% assign api_path_tags = method_details.tags %}
 
+                    <div class="APIDescription__table">
+                       <div class="APIDescription__tableHeader">
+                          <p class="APIDescription__tableHeaderCopy">{{ api_path_summary }} ({{ verb }})</p>
+                       </div>
+                       <div class="APIDescription__tableBody">
+                          <div class="APIDescription__tableBodyCopy">
+                             {{ path_name }}
+                          </div>
+                       </div>
+                    </div>
+
+                  {% endfor %}
                 {% endfor %}
-              {% endfor %}
+              {% endif %}
             {% endif %}
           {% endif %}
-        {% endif %}
-      {% endfor %}
+        {% endfor %}
 
-  </div>
-</section>
+    </div>
+  </section>
+{% endif %}
