@@ -89,10 +89,9 @@
 
 
 {% for item in site.listings %}
-  HERE: {{ item[0] }} == {{ page.x-collection-name }} <br />
   {% if item.swagger %}
     {% if item.swagger == "2.0" %}
-
+      {{ item.x-collection-name }} == {{ page.name }}<br />
     {% endif %}
   {% endif %}
 {% endfor %}
