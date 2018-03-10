@@ -28,6 +28,13 @@ layout: default
 
 {% else %}
 
+  {% assign apis_json = page %}
+
+  {% include apis-json.html %}
+  {% include x-common.html %}
+
+  {% assign stream_rank = page.x-streamrank %}
+
   {% include org-details.html %}
 
 {% endif %}
