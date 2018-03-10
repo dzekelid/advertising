@@ -20,6 +20,19 @@
    <div class="APIDesciption__container">
       <h2 class="APIDescription__header">Links</h2>
 
+      {% if portal_url != '' %}
+      <div class="APIDescription__table">
+         <div class="APIDescription__tableHeader">
+            <p class="APIDescription__tableHeaderCopy">Developer Portal</p>
+         </div>
+         <div class="APIDescription__tableBody">
+            <div class="APIDescription__tableBodyCopy">
+               <p><a href="{{ portal_url }}" target="_blank" rel="noopener">{{ portal_url }}</a></p>
+            </div>
+         </div>
+      </div>
+      {% endif %}
+
       {% if signup_url != '' %}
       <div class="APIDescription__table">
          <div class="APIDescription__tableHeader">
