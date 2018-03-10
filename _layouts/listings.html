@@ -2,7 +2,7 @@
 layout: default
 ---
 
-{% if item.swagger %}
+{% if page.swagger %}
 
   {% assign openapi = page | replace: ' ','-' | downcase %}
   {% assign slug = page.info.title | replace: ' ','-' | downcase %}
