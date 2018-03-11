@@ -15,7 +15,17 @@ created: "2018-03-10"
 modified: "2018-03-10"
 url: https://raw.githubusercontent.com/streamdata-gallery/advertising/master/_listings/google-doubleclick/apis.yaml
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: Google Doubleclick API
+  description: The Ad Exchange Buyer REST API allows your Real-Time Bidding application
+    to access and update account information and to submit creatives
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-double-click.png
+  humanURL: ""
+  baseURL: https:///
+  tags: Advertising
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery/advertising/master/_listings/google-doubleclick/accounts-id-get.md
 x-common:
 - type: x-authentication
   url: https://developers.google.com/ad-exchange/buyer-rest/auth-guide
