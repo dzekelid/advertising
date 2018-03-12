@@ -4,7 +4,7 @@ tag: Advertising
 markdown: kramdown
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", ".DS_Store"]
 github_user: streamdata-gallery
-github_repo: template
+github_repo: advertising
 github_branch: master
 collections:
   listings:
