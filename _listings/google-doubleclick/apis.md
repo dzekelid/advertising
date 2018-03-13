@@ -25,7 +25,7 @@ apis:
   tags: Advertising
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/advertising/master/_listings/google-doubleclick/userprofiles-profileid-conversions-batchinsert-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/advertising/master/_listings/google-doubleclick/userprofiles-profileid-countries-get.md
 x-common:
 - type: x-authentication
   url: https://developers.google.com/ad-exchange/buyer-rest/auth-guide
