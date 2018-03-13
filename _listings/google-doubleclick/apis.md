@@ -25,7 +25,7 @@ apis:
   tags: Advertising
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/advertising/master/_listings/google-doubleclick/pretargetingconfigs-accountid-configid-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/advertising/master/_listings/google-doubleclick/pretargetingconfigs-accountid-configid-patch.md
 x-common:
 - type: x-authentication
   url: https://developers.google.com/ad-exchange/buyer-rest/auth-guide
