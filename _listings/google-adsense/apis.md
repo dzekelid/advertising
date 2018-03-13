@@ -26,7 +26,7 @@ apis:
   tags: Advertising
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/advertising/master/_listings/google-adsense/accounts-accountid-adclients-adclientid-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/advertising/master/_listings/google-adsense/accounts-accountid-adclients-adclientid-adunits-get.md
 x-common:
 - type: x-blog
   url: http://googleadsdeveloper.blogspot.com/search/label/adsense_api
