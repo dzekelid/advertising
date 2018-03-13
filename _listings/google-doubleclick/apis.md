@@ -25,7 +25,7 @@ apis:
   tags: Advertising
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/advertising/master/_listings/google-doubleclick/accounts-accountid-reports-savedreportid-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/advertising/master/_listings/google-doubleclick/reports-reportid-files-fileid-get.md
 x-common:
 - type: x-authentication
   url: https://developers.google.com/ad-exchange/buyer-rest/auth-guide
