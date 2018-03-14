@@ -28,7 +28,10 @@ layout: default
 
 {% else %}
 
-  {% assign apis_json = page %
+  {% assign apis_json = page %}
+
+  {% include apis-json.html %}
+  {% include x-common.html %}
 
   {% include org-details.html %}
 
