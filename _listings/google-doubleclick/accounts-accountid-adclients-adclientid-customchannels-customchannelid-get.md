@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: Google Doubleclick Merged API
+  title: Google Doubleclick API Get Custom Channels
   version: 1.0.0
+  description: Get the specified custom channel from the specified ad client.
 schemes:
 - http
 produces:
