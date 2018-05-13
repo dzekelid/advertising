@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: Google Doubleclick Merged API
+  title: Google Doubleclick API Get Report Dimension
   version: 1.0.0
+  description: Retrieves list of report dimension values for a list of filters.
 schemes:
 - http
 produces:
