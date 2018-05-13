@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: Google Doubleclick Merged API
+  title: Google Doubleclick API Update Account User
   version: 1.0.0
+  description: Updates an existing account user profile.
 schemes:
 - http
 produces:
