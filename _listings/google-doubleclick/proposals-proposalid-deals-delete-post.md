@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: Google Doubleclick Merged API
+  title: Google Doubleclick API Delete Proposal Deal
   version: 1.0.0
+  description: Delete the specified deals from the proposal
 schemes:
 - http
 produces:
