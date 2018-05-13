@@ -50,8 +50,8 @@ apis:
   description: Gets the status for a single creative. A creative will be available
     30-40 minutes after submission.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-double-click.png
-  humanURL: ""
-  baseURL: https:///
+  humanURL: https://www.doubleclickbygoogle.com/
+  baseURL: https://{host}//
   tags: Advertising
   properties:
   - type: x-openapi-spec
@@ -75,15 +75,6 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-doubleclick/accounts-id-get.md
-- name: Google Doubleclick API Submit Creative
-  description: Submit a new creative.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-double-click.png
-  humanURL: https://www.doubleclickbygoogle.com/
-  baseURL: https://{host}//
-  tags: Advertising
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-doubleclick/creatives-post.md
 x-common:
 - type: x-authentication
   url: https://developers.google.com/ad-exchange/buyer-rest/auth-guide
