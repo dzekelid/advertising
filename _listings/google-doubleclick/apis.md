@@ -147,6 +147,22 @@ x-common:
   url: https://developers.google.com/ad-exchange/buyer-rest/community/
 - type: x-website
   url: https://www.doubleclickbygoogle.com/
+- type: x-authentication
+  url: https://developers.google.com/ad-exchange/buyer-rest/auth-guide
+- type: x-blog
+  url: http://googleadsdeveloper.blogspot.com/search/label/ad_exchange
+- type: x-blog-rss
+  url: http://googleadsdeveloper.blogspot.com/feeds/posts/default?alt=rss
+- type: x-developer
+  url: https://developers.google.com/ad-exchange/buyer-rest/
+- type: x-forum
+  url: https://groups.google.com/forum/#!forum/google-doubleclick-ad-exchange-buyer-api
+- type: x-getting-started
+  url: https://developers.google.com/ad-exchange/buyer-rest/start
+- type: x-support
+  url: https://developers.google.com/ad-exchange/buyer-rest/community/
+- type: x-website
+  url: https://www.doubleclickbygoogle.com/
 include: []
 maintainers:
 - FN: Kin Lane
