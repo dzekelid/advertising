@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: Google Doubleclick Merged API
+  title: Google Doubleclick API Get Account Active Ad Summary
   version: 1.0.0
+  description: Gets the account's active ad summary by account ID.
 schemes:
 - http
 produces:
