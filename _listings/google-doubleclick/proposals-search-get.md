@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: Google Doubleclick Merged API
+  title: Google Doubleclick API Search Proposal
   version: 1.0.0
+  description: Search for proposals using pql query
 schemes:
 - http
 produces:
