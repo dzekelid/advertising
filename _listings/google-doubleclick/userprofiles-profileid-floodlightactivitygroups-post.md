@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: Google Doubleclick Merged API
+  title: Google Doubleclick API Create Floodlight Activity Group
   version: 1.0.0
+  description: Inserts a new floodlight activity group.
 schemes:
 - http
 produces:
