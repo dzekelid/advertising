@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: Google Doubleclick Merged API
+  title: Google Doubleclick API Get Languages
   version: 1.0.0
+  description: Retrieves a list of languages.
 schemes:
 - http
 produces:
