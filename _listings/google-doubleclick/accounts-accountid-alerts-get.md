@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: Google Doubleclick Merged API
+  title: Google Doubleclick API Get Alerts
   version: 1.0.0
+  description: List the alerts for this Ad Exchange account.
 schemes:
 - http
 produces:
