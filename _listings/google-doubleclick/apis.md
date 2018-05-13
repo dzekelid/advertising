@@ -113,41 +113,16 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-doubleclick/userprofiles-profileid-campaigns-patch.md
-- name: Google Doubleclick API Get Countries
-  description: Retrieves a list of countries.
+- name: Google Doubleclick API Create Creative Fields
+  description: Inserts a new creative field.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-double-click.png
   humanURL: https://www.doubleclickbygoogle.com/
   baseURL: https://{host}//
   tags: Advertising
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-doubleclick/userprofiles-profileid-countries-get.md
-- name: Google Doubleclick API Update Creative Fields
-  description: Updates an existing creative field. This method supports patch semantics.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-double-click.png
-  humanURL: https://www.doubleclickbygoogle.com/
-  baseURL: https://{host}//
-  tags: Advertising
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-doubleclick/userprofiles-profileid-creativefields-patch.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-doubleclick/userprofiles-profileid-creativefields-post.md
 x-common:
-- type: x-authentication
-  url: https://developers.google.com/ad-exchange/buyer-rest/auth-guide
-- type: x-blog
-  url: http://googleadsdeveloper.blogspot.com/search/label/ad_exchange
-- type: x-blog-rss
-  url: http://googleadsdeveloper.blogspot.com/feeds/posts/default?alt=rss
-- type: x-developer
-  url: https://developers.google.com/ad-exchange/buyer-rest/
-- type: x-forum
-  url: https://groups.google.com/forum/#!forum/google-doubleclick-ad-exchange-buyer-api
-- type: x-getting-started
-  url: https://developers.google.com/ad-exchange/buyer-rest/start
-- type: x-support
-  url: https://developers.google.com/ad-exchange/buyer-rest/community/
-- type: x-website
-  url: https://www.doubleclickbygoogle.com/
 - type: x-authentication
   url: https://developers.google.com/ad-exchange/buyer-rest/auth-guide
 - type: x-blog
