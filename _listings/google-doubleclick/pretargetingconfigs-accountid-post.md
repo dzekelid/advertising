@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: Google Doubleclick Merged API
+  title: Google Doubleclick API Update Pretargeting Config
   version: 1.0.0
+  description: Inserts a new pretargeting configuration.
 schemes:
 - http
 produces:
