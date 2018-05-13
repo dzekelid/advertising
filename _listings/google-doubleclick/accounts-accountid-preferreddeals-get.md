@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: Google Doubleclick Merged API
+  title: Google Doubleclick API Get Preferred Deals
   version: 1.0.0
+  description: List the preferred deals for this Ad Exchange account.
 schemes:
 - http
 produces:
