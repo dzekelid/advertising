@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: Google Doubleclick Merged API
+  title: Google Doubleclick API Get Proposal Deals
   version: 1.0.0
+  description: List all the deals for a given proposal
 schemes:
 - http
 produces:
