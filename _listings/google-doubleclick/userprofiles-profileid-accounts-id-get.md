@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: Google Doubleclick Merged API
+  title: Google Doubleclick API Get Account
   version: 1.0.0
+  description: Gets one account by ID.
 schemes:
 - http
 produces:
