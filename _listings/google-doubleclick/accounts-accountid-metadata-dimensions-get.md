@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: Google Doubleclick Merged API
+  title: Google Doubleclick API Get Dimensions
   version: 1.0.0
+  description: List the metadata for the dimensions available to this AdExchange account.
 schemes:
 - http
 produces:
