@@ -113,15 +113,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-doubleclick/userprofiles-profileid-campaigns-patch.md
-- name: Google Doubleclick API Get Cities
-  description: Retrieves a list of cities, possibly filtered.
+- name: Google Doubleclick API Get Connection Types
+  description: Retrieves a list of connection types.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-double-click.png
   humanURL: https://www.doubleclickbygoogle.com/
   baseURL: https://{host}//
   tags: Advertising
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-doubleclick/userprofiles-profileid-cities-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-doubleclick/userprofiles-profileid-connectiontypes-get.md
 x-common:
 - type: x-authentication
   url: https://developers.google.com/ad-exchange/buyer-rest/auth-guide
