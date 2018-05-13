@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: Google Doubleclick Merged API
+  title: Google Doubleclick API Update Creative Group
   version: 1.0.0
+  description: Updates an existing creative group.
 schemes:
 - http
 produces:
