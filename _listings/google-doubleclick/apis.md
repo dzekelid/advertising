@@ -113,15 +113,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-doubleclick/userprofiles-profileid-campaigns-patch.md
-- name: Google Doubleclick API Get Campaign
-  description: Gets one campaign by ID.
+- name: Google Doubleclick API Get Change Logs
+  description: Retrieves a list of change logs. This method supports paging.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-double-click.png
   humanURL: https://www.doubleclickbygoogle.com/
   baseURL: https://{host}//
   tags: Advertising
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-doubleclick/userprofiles-profileid-campaigns-id-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-doubleclick/userprofiles-profileid-changelogs-get.md
 x-common:
 - type: x-authentication
   url: https://developers.google.com/ad-exchange/buyer-rest/auth-guide
