@@ -1,8 +1,10 @@
 ---
 swagger: "2.0"
 info:
-  title: Google Doubleclick Merged API
+  title: Google Doubleclick API Get Creatives
   version: 1.0.0
+  description: Retrieves a list of creatives, possibly filtered. This method supports
+    paging.
 schemes:
 - http
 produces:
