@@ -1,8 +1,12 @@
 ---
 swagger: "2.0"
 info:
-  title: Google Doubleclick Merged API
+  title: Google Doubleclick API Insert Dynamic Targeting Key
   version: 1.0.0
+  description: Inserts a new dynamic targeting key. Keys must be created at the advertiser
+    level before being assigned to the advertiser's ads, creatives, or placements.
+    There is a maximum of 1000 keys per advertiser, out of which a maximum of 20 keys
+    can be assigned per ad, creative, or placement.
 schemes:
 - http
 produces:
