@@ -1,8 +1,11 @@
 ---
 swagger: "2.0"
 info:
-  title: Google Doubleclick Merged API
+  title: Google Doubleclick API Get Budget Amount
   version: 1.0.0
+  description: Updates the budget amount for the budget of the adgroup specified by
+    the accountId and billingId, with the budget amount in the request. This method
+    supports patch semantics.
 schemes:
 - http
 produces:
