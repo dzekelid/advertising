@@ -1,8 +1,10 @@
 ---
 swagger: "2.0"
 info:
-  title: Google Doubleclick Merged API
+  title: Google Doubleclick API Get Creatives
   version: 1.0.0
+  description: Retrieves a list of the authenticated user's active creatives. A creative
+    will be available 30-40 minutes after submission.
 schemes:
 - http
 produces:
