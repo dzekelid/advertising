@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: Google Doubleclick Merged API
+  title: Google Doubleclick API Get Mobile Carriers
   version: 1.0.0
+  description: Retrieves a list of mobile carriers.
 schemes:
 - http
 produces:
