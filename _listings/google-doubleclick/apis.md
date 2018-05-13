@@ -85,24 +85,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-doubleclick/accounts-accountid-adclients-adclientid-urlchannels-get.md
-- name: Google Doubleclick API Update Account User
-  description: Updates an existing account user profile.
+- name: Google Doubleclick API Update Proposal
+  description: Update a given private auction proposal
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-double-click.png
   humanURL: https://www.doubleclickbygoogle.com/
   baseURL: https://{host}//
   tags: Advertising
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-doubleclick/userprofiles-profileid-accountuserprofiles-put.md
-- name: Google Doubleclick API Update Pretargeting Config
-  description: Updates an existing pretargeting config.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-double-click.png
-  humanURL: https://www.doubleclickbygoogle.com/
-  baseURL: https://{host}//
-  tags: Advertising
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-doubleclick/pretargetingconfigs-accountid-configid-put.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-doubleclick/privateauction-privateauctionid-updateproposal-post.md
 x-common:
 - type: x-authentication
   url: https://developers.google.com/ad-exchange/buyer-rest/auth-guide
