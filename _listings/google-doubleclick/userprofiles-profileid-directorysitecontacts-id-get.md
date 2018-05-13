@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: Google Doubleclick Merged API
+  title: Google Doubleclick API Get Directory Site Contact
   version: 1.0.0
+  description: Gets one directory site contact by ID.
 schemes:
 - http
 produces:
