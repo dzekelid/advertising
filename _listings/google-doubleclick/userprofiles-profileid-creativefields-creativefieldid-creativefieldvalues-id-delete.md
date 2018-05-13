@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: Google Doubleclick Merged API
+  title: Google Doubleclick API Delete Creative Field Value
   version: 1.0.0
+  description: Deletes an existing creative field value.
 schemes:
 - http
 produces:
