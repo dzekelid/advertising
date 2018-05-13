@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: Google Doubleclick Merged API
+  title: Google Doubleclick API Get Operating System Versions
   version: 1.0.0
+  description: Retrieves a list of operating system versions.
 schemes:
 - http
 produces:
