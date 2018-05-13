@@ -75,15 +75,17 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-doubleclick/products-productid-get.md
-- name: Google Doubleclick API Get Preferred Deal
-  description: Get information about the selected Ad Exchange Preferred Deal.
+- name: Google Doubleclick API Get Reports
+  description: Generate an Ad Exchange report based on the report request sent in
+    the query parameters. Returns the result as JSON; to retrieve output in CSV format
+    specify "alt=csv" as a query parameter.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-double-click.png
   humanURL: https://www.doubleclickbygoogle.com/
   baseURL: https://{host}//
   tags: Advertising
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-doubleclick/accounts-accountid-preferreddeals-dealid-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-doubleclick/accounts-accountid-reports-get.md
 x-common:
 - type: x-authentication
   url: https://developers.google.com/ad-exchange/buyer-rest/auth-guide
