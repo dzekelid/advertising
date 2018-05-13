@@ -122,15 +122,18 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-doubleclick/userprofiles-profileid-countries-get.md
-- name: Google Doubleclick API Get Dynamic Targeting Keys
-  description: Retrieves a list of dynamic targeting keys.
+- name: Google Doubleclick API Insert Dynamic Targeting Key
+  description: Inserts a new dynamic targeting key. Keys must be created at the advertiser
+    level before being assigned to the advertiser's ads, creatives, or placements.
+    There is a maximum of 1000 keys per advertiser, out of which a maximum of 20 keys
+    can be assigned per ad, creative, or placement.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-double-click.png
   humanURL: https://www.doubleclickbygoogle.com/
   baseURL: https://{host}//
   tags: Advertising
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-doubleclick/userprofiles-profileid-dynamictargetingkeys-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-doubleclick/userprofiles-profileid-dynamictargetingkeys-post.md
 x-common:
 - type: x-authentication
   url: https://developers.google.com/ad-exchange/buyer-rest/auth-guide
