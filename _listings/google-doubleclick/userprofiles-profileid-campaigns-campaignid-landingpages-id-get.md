@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: Google Doubleclick Merged API
+  title: Google Doubleclick API Get Landing Page
   version: 1.0.0
+  description: Gets one campaign landing page by ID.
 schemes:
 - http
 produces:
