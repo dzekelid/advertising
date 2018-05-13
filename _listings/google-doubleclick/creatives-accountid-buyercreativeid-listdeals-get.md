@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: Google Doubleclick Merged API
+  title: Google Doubleclick API List Deals
   version: 1.0.0
+  description: Lists the external deal ids associated with the creative.
 schemes:
 - http
 produces:
