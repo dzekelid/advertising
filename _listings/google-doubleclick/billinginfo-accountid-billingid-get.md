@@ -1,8 +1,10 @@
 ---
 swagger: "2.0"
 info:
-  title: Google Doubleclick Merged API
+  title: Google Doubleclick API Get Budget Info
   version: 1.0.0
+  description: Returns the budget information for the adgroup specified by the accountId
+    and billingId.
 schemes:
 - http
 produces:
