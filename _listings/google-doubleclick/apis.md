@@ -40,8 +40,8 @@ apis:
 - name: Google Doubleclick API Update Proposal Deal
   description: Replaces all the deals in the proposal with the passed in deals
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-double-click.png
-  humanURL: https://www.doubleclickbygoogle.com/
-  baseURL: https://{host}//
+  humanURL: ""
+  baseURL: https:///
   tags: Advertising
   properties:
   - type: x-openapi-spec
@@ -75,6 +75,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-doubleclick/products-productid-get.md
+- name: Google Doubleclick API Get Proposal Notes
+  description: Get all the notes associated with a proposal
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-double-click.png
+  humanURL: https://www.doubleclickbygoogle.com/
+  baseURL: https://{host}//
+  tags: Advertising
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-doubleclick/proposals-proposalid-notes-get.md
 x-common:
 - type: x-authentication
   url: https://developers.google.com/ad-exchange/buyer-rest/auth-guide
