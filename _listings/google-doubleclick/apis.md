@@ -66,24 +66,24 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-doubleclick/billinginfo-accountid-billingid-put.md
-- name: Google Doubleclick API Get Product
-  description: Gets the requested product by id.
+- name: Google Doubleclick API Get Account
+  description: Gets one account by ID.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-double-click.png
+  humanURL: https://www.doubleclickbygoogle.com/
+  baseURL: https:///
+  tags: Advertising
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-doubleclick/accounts-id-get.md
+- name: Google Doubleclick API Insert Proposal Notes
+  description: Add notes to the proposal
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-double-click.png
   humanURL: https://www.doubleclickbygoogle.com/
   baseURL: https://{host}//
   tags: Advertising
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-doubleclick/products-productid-get.md
-- name: Google Doubleclick API Get Proposal Notes
-  description: Get all the notes associated with a proposal
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-double-click.png
-  humanURL: https://www.doubleclickbygoogle.com/
-  baseURL: https://{host}//
-  tags: Advertising
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-doubleclick/proposals-proposalid-notes-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-doubleclick/proposals-proposalid-notes-insert-post.md
 x-common:
 - type: x-authentication
   url: https://developers.google.com/ad-exchange/buyer-rest/auth-guide
