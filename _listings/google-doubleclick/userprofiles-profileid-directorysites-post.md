@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: Google Doubleclick Merged API
+  title: Google Doubleclick API Insert Directory Site
   version: 1.0.0
+  description: Inserts a new directory site.
 schemes:
 - http
 produces:
