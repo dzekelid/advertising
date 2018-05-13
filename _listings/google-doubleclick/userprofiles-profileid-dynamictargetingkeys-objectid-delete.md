@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: Google Doubleclick Merged API
+  title: Google Doubleclick API Delete Dynamic Targeting Key
   version: 1.0.0
+  description: Deletes an existing dynamic targeting key.
 schemes:
 - http
 produces:
