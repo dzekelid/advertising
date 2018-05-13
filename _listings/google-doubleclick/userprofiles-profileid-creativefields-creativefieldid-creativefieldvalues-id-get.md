@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: Google Doubleclick Merged API
+  title: Google Doubleclick API UpGetdate Creative Field Value
   version: 1.0.0
+  description: Gets one creative field value by ID.
 schemes:
 - http
 produces:
