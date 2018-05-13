@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: Google Doubleclick Merged API
+  title: Google Doubleclick API Add Landing Page
   version: 1.0.0
+  description: Inserts a new landing page for the specified campaign.
 schemes:
 - http
 produces:
