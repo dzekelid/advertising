@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: Google Doubleclick Merged API
+  title: Google Doubleclick API Get Cities
   version: 1.0.0
+  description: Retrieves a list of cities, possibly filtered.
 schemes:
 - http
 produces:
