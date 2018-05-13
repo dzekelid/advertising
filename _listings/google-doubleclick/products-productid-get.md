@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: Google Doubleclick Merged API
+  title: Google Doubleclick API Get Product
   version: 1.0.0
+  description: Gets the requested product by id.
 schemes:
 - http
 produces:
