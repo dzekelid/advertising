@@ -31,8 +31,8 @@ apis:
     the accountId and billingId, with the budget amount in the request. This method
     supports patch semantics.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-double-click.png
-  humanURL: https://www.doubleclickbygoogle.com/
-  baseURL: https://{host}//
+  humanURL: ""
+  baseURL: https:///
   tags: Advertising
   properties:
   - type: x-openapi-spec
@@ -60,8 +60,8 @@ apis:
   description: Updates the budget amount for the budget of the adgroup specified by
     the accountId and billingId, with the budget amount in the request.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-double-click.png
-  humanURL: ""
-  baseURL: https:///
+  humanURL: https://www.doubleclickbygoogle.com/
+  baseURL: https://{host}//
   tags: Advertising
   properties:
   - type: x-openapi-spec
