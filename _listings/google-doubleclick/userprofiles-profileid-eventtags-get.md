@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: Google Doubleclick Merged API
+  title: Google Doubleclick API Get Event Tags
   version: 1.0.0
+  description: Retrieves a list of event tags, possibly filtered.
 schemes:
 - http
 produces:
