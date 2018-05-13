@@ -66,41 +66,16 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-doubleclick/billinginfo-accountid-billingid-put.md
-- name: Google Doubleclick API Get Account
-  description: Gets one account by ID.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-double-click.png
-  humanURL: https://www.doubleclickbygoogle.com/
-  baseURL: https:///
-  tags: Advertising
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-doubleclick/accounts-id-get.md
-- name: Google Doubleclick API Create Deal
-  description: Add a deal id association for the creative.
+- name: Google Doubleclick API List Deals
+  description: Lists the external deal ids associated with the creative.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-double-click.png
   humanURL: https://www.doubleclickbygoogle.com/
   baseURL: https://{host}//
   tags: Advertising
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-doubleclick/creatives-accountid-buyercreativeid-adddeal-dealid-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-doubleclick/creatives-accountid-buyercreativeid-listdeals-get.md
 x-common:
-- type: x-authentication
-  url: https://developers.google.com/ad-exchange/buyer-rest/auth-guide
-- type: x-blog
-  url: http://googleadsdeveloper.blogspot.com/search/label/ad_exchange
-- type: x-blog-rss
-  url: http://googleadsdeveloper.blogspot.com/feeds/posts/default?alt=rss
-- type: x-developer
-  url: https://developers.google.com/ad-exchange/buyer-rest/
-- type: x-forum
-  url: https://groups.google.com/forum/#!forum/google-doubleclick-ad-exchange-buyer-api
-- type: x-getting-started
-  url: https://developers.google.com/ad-exchange/buyer-rest/start
-- type: x-support
-  url: https://developers.google.com/ad-exchange/buyer-rest/community/
-- type: x-website
-  url: https://www.doubleclickbygoogle.com/
 - type: x-authentication
   url: https://developers.google.com/ad-exchange/buyer-rest/auth-guide
 - type: x-blog
