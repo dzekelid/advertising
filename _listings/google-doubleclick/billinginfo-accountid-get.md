@@ -1,8 +1,10 @@
 ---
 swagger: "2.0"
 info:
-  title: Google Doubleclick Merged API
+  title: Google Doubleclick API Get Billing Info
   version: 1.0.0
+  description: Returns the billing information for one account specified by account
+    ID.
 schemes:
 - http
 produces:
