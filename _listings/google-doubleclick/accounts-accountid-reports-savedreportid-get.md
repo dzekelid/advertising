@@ -1,8 +1,10 @@
 ---
 swagger: "2.0"
 info:
-  title: Google Doubleclick Merged API
+  title: Google Doubleclick API Get Saved Report
   version: 1.0.0
+  description: Generate an Ad Exchange report based on the saved report ID sent in
+    the query parameters.
 schemes:
 - http
 produces:
