@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: Google Doubleclick Merged API
+  title: Google Doubleclick API Update Event Tag
   version: 1.0.0
+  description: Updates an existing event tag. This method supports patch semantics.
 schemes:
 - http
 produces:
