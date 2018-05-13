@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: Google Doubleclick Merged API
+  title: Google Doubleclick API Generate Tag for Floodlight Activity
   version: 1.0.0
+  description: Generates a tag for a floodlight activity.
 schemes:
 - http
 produces:
