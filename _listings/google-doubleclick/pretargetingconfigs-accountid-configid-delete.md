@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: Google Doubleclick Merged API
+  title: Google Doubleclick API Delete Pretargeting Config
   version: 1.0.0
+  description: Deletes an existing pretargeting config.
 schemes:
 - http
 produces:
