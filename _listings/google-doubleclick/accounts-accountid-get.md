@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: Google Doubleclick Merged API
+  title: Google Doubleclick API Get Account
   version: 1.0.0
+  description: Get information about the selected Ad Exchange account.
 schemes:
 - http
 produces:
