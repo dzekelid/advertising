@@ -1,8 +1,10 @@
 ---
 swagger: "2.0"
 info:
-  title: Google Doubleclick Merged API
+  title: Google Doubleclick API Get Accounts
   version: 1.0.0
+  description: Retrieves the list of accounts, possibly filtered. This method supports
+    paging.
 schemes:
 - http
 produces:
