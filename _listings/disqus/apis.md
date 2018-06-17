@@ -1,37 +1,40 @@
 ---
 name: Disqus
-description: 'Disqus (/d?-sk?s/) is an online discussion and commenting service for
-  websites and online communities that uses a networked platform. The company???s
-  platform includes various features, such as social integration, social networking,
-  user profiles, spam and moderation tools, analytics, email notifications, and mobile
-  commenting. '
-image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/disqus-logo-icon-750.jpg
+x-slug: disqus
+description: Disqus offers the best add-on tools for websites to increase engagement.
+  We help publishers power online discussions with comments and earn revenue with
+  native advertising.
+image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/182-disqus.jpg
 x-kinRank: "8"
-x-alexaRank: ""
-tags:
-- Stack Network
-- Stack
-- Social
-- Partners
-- My API Stack
-- Media
-- Content
-- Comments
-created: "2018-03-13"
-modified: "2018-03-13"
-url: https://raw.githubusercontent.com/streamdata-gallery/advertising/master/_listings/disqus/apis.yaml
+x-alexaRank: "850"
+tags: Advertising
+created: "2018-06-17"
+modified: "2018-06-17"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/disqus/apis.md
 specificationVersion: "0.14"
 apis:
+- name: Disqus Forums DisableAds
+  x-api-slug: disqus
+  description: Forums DisableAds
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/182-disqus.jpg
+  humanURL: https://disqus.com/
+  baseURL: https://disqus.com/api/3.0///forums/disableAds.json
+  tags: Comments,Forums,Advertising
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/disqus/forumsdisableads-json-post-openapi.md
 - name: Disqus
-  description: Disqus (/d?-sk?s/) is an online discussion and commenting service for
-    websites and online communities that uses a networked platform
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/disqus-logo-icon-750.jpg
-  humanURL: ""
+  x-api-slug: disqus
+  description: Disqus offers the best add-on tools for websites to increase engagement.
+    We help publishers power online discussions with comments and earn revenue with
+    native advertising.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/182-disqus.jpg
+  humanURL: https://disqus.com/
   baseURL: https://disqus.com/api/3.0/
   tags: Advertising
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/advertising/master/_listings/disqus/forums-disableads-json-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/disqus/openapi.md
 x-common:
 - type: x-base
   url: https://disqus.com/api/
@@ -41,6 +44,8 @@ x-common:
   url: http://blog.disqus.com/rss
 - type: x-crunchbase
   url: http://www.crunchbase.com/company/disqus
+- type: x-crunchbase
+  url: https://crunchbase.com/organization/disqus
 - type: x-developer
   url: https://disqus.com/api/docs/
 - type: x-github
