@@ -5,7 +5,7 @@ description: This is a repository of advertising APIs, self-contained as a Githu
   operations.
 image: http://template.streamdata.gallery/assets/advertising.png
 created: "2018-02-24"
-modified: "2018-06-17"
+modified: "2018-06-25"
 url: http://advertising.streamdata.gallery/apis.json
 specificationVersion: "0.14"
 apis: []
@@ -13,12 +13,12 @@ tags: Advertising
 include:
 - name: Disqus
   url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/disqus/apis.yaml
-- name: NPR
-  url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/npr/apis.yaml
 - name: Google Doubleclick
   url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-doubleclick/apis.yaml
 - name: Google Adsense
   url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/apis.yaml
+- name: NPR
+  url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/npr/apis.yaml
 maintainers:
 - FN: Kin Lane
   x-twitter: apievangelist
