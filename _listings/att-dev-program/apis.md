@@ -11,7 +11,21 @@ created: "2018-08-25"
 modified: "2018-08-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/att-dev-program/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: AT&T API - Get Ads
+  x-api-slug: rest1ads-get
+  description: /rest/1/ads
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/156-at&t-dev-program.jpg
+  humanURL: http://att.com
+  baseURL: https://api.att.com//
+  tags: SMS, Cloud, Storage, Notifications, Voice, MMS, Stack Network, Telecommunications,
+    Media, ISP, API Provider, Telecommunications, Messages, Messages, Profiles, Service
+    API, Networks
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/att-dev-program/rest1ads-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/att-dev-program/rest1ads-get-openapi.md
 x-common:
 - type: x-android-sdk
   url: https://developer.att.com/sdks-plugins/att-api-platform-sdk-for-android
