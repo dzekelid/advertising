@@ -13,20 +13,7 @@ created: "2018-08-25"
 modified: "2018-08-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/airpush/apis.md
 specificationVersion: "0.14"
-apis:
-- name: Airpush Publisher API
-  x-api-slug: airpush-publisher-api
-  description: World class mobile ad network and mobile app monetization using first-party
-    data and the most advanced targeting and ad formats. The worlds top advertisers
-    rely on Airpush to reach mobile users and top developers and publishers use Airpush
-    for the hig...
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1863-airpush.jpg
-  humanURL: http://www.airpush.com/
-  baseURL: https:///
-  tags: Advertising
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/airpush/openapi.md
+apis: []
 x-common:
 - type: x-blog
   url: http://www.airpush.com/category/airpush-mobile-advertising-blog/

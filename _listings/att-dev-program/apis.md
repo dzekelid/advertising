@@ -11,31 +11,7 @@ created: "2018-08-25"
 modified: "2018-08-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/att-dev-program/apis.md
 specificationVersion: "0.14"
-apis:
-- name: AT&T API
-  x-api-slug: att-api
-  description: AT&T Official Site. Premium entertainment, the latest cell phones &
-    tablets, unlimited data plans, and high-speed internet. Join the nations best
-    network today!
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/156-at&t-dev-program.jpg
-  humanURL: http://att.com
-  baseURL: https://api.att.com//
-  tags: Advertising
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/att-dev-program/openapi.md
-- name: AT&T Dev Program API
-  x-api-slug: att-dev-program-api
-  description: AT&T Official Site. Premium entertainment, the latest cell phones &
-    tablets, unlimited data plans, and high-speed internet. Join the nations best
-    network today!
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/156-at&t-dev-program.jpg
-  humanURL: http://att.com
-  baseURL: https:///
-  tags: Advertising
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/att-dev-program/openapi.md
+apis: []
 x-common:
 - type: x-android-sdk
   url: https://developer.att.com/sdks-plugins/att-api-platform-sdk-for-android
