@@ -9,286 +9,1091 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "9"
 x-alexaRank: "0"
 tags: Advertising
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-25"
+modified: "2018-08-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Google Adsense API Get Accounts
+- name: Google Adsense API
   x-api-slug: google-adsense-api
-  description: List hosted accounts associated with this AdSense account by ad client
-    id.
+  description: ""
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-adsense.png
   humanURL: https://developers.google.com/adsense/
-  baseURL: https://///accounts
-  tags: Advertising,Account
+  baseURL: https:///
+  tags: Advertising, Google APIs, Stack Network, Stack, API Service Provider, API
+    Provider, Profiles, Service API, Relative Data
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accounts-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accounts-get-openapi.md
-- name: Google Adsense API Get Account
+- name: Google Adsense API
   x-api-slug: google-adsense-api
-  description: Get information about the selected associated AdSense account.
+  description: ""
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-adsense.png
   humanURL: https://developers.google.com/adsense/
-  baseURL: https://///accounts/{accountId}
-  tags: Advertising,Account
+  baseURL: https:///
+  tags: Advertising, Google APIs, Stack Network, Stack, API Service Provider, API
+    Provider, Profiles, Service API, Relative Data
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accounts-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accounts-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountid-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountid-get-openapi.md
-- name: Google Adsense API Get Ad Clients
+- name: Google Adsense API
   x-api-slug: google-adsense-api
-  description: List all hosted ad clients in the specified hosted account.
+  description: ""
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-adsense.png
   humanURL: https://developers.google.com/adsense/
-  baseURL: https://///accounts/{accountId}/adclients
-  tags: Advertising,Clients
+  baseURL: https:///
+  tags: Advertising, Google APIs, Stack Network, Stack, API Service Provider, API
+    Provider, Profiles, Service API, Relative Data
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accounts-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accounts-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountid-get-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountidadclients-get-openapi.md
-- name: Google Adsense API Get Ad Client
+- name: Google Adsense API
   x-api-slug: google-adsense-api
-  description: Get information about one of the ad clients in the specified publisher's
-    AdSense account.
+  description: ""
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-adsense.png
   humanURL: https://developers.google.com/adsense/
-  baseURL: https://///accounts/{accountId}/adclients/{adClientId}
-  tags: Advertising,Clients
+  baseURL: https:///
+  tags: Advertising, Google APIs, Stack Network, Stack, API Service Provider, API
+    Provider, Profiles, Service API, Relative Data
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accounts-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accounts-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountid-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountidadclients-get-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountidadclientsadclientid-get-openapi.md
-- name: Google Adsense API Get Ad Units
+- name: Google Adsense API
   x-api-slug: google-adsense-api
-  description: List all ad units in the specified publisher's AdSense account.
+  description: ""
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-adsense.png
   humanURL: https://developers.google.com/adsense/
-  baseURL: https://///accounts/{accountId}/adclients/{adClientId}/adunits
-  tags: Advertising,Units
+  baseURL: https:///
+  tags: Advertising, Google APIs, Stack Network, Stack, API Service Provider, API
+    Provider, Profiles, Service API, Relative Data
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accounts-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accounts-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountid-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountidadclients-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountidadclientsadclientid-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountidadclientsadclientidadunits-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountidadclientsadclientidadunits-get-openapi.md
-- name: Google Adsense API Update Ad Units
+- name: Google Adsense API
   x-api-slug: google-adsense-api
-  description: Update the supplied ad unit in the specified publisher AdSense account.
-    This method supports patch semantics.
+  description: ""
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-adsense.png
   humanURL: https://developers.google.com/adsense/
-  baseURL: https://///accounts/{accountId}/adclients/{adClientId}/adunits
-  tags: Advertising,Units
+  baseURL: https:///
+  tags: Advertising, Google APIs, Stack Network, Stack, API Service Provider, API
+    Provider, Profiles, Service API, Relative Data
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accounts-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accounts-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountid-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountidadclients-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountidadclientsadclientid-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountidadclientsadclientidadunits-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountidadclientsadclientidadunits-get-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountidadclientsadclientidadunits-patch-openapi.md
-- name: Google Adsense API Create Ad Unit
+- name: Google Adsense API
   x-api-slug: google-adsense-api
-  description: Insert the supplied ad unit into the specified publisher AdSense account.
+  description: ""
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-adsense.png
   humanURL: https://developers.google.com/adsense/
-  baseURL: https://///accounts/{accountId}/adclients/{adClientId}/adunits
-  tags: Advertising,Units
+  baseURL: https:///
+  tags: Advertising, Google APIs, Stack Network, Stack, API Service Provider, API
+    Provider, Profiles, Service API, Relative Data
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accounts-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accounts-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountid-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountidadclients-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountidadclientsadclientid-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountidadclientsadclientidadunits-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountidadclientsadclientidadunits-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountidadclientsadclientidadunits-patch-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountidadclientsadclientidadunits-post-openapi.md
-- name: Google Adsense API Update Ad Unit
+- name: Google Adsense API
   x-api-slug: google-adsense-api
-  description: Update the supplied ad unit in the specified publisher AdSense account.
+  description: ""
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-adsense.png
   humanURL: https://developers.google.com/adsense/
-  baseURL: https://///accounts/{accountId}/adclients/{adClientId}/adunits
-  tags: Advertising,Units
+  baseURL: https:///
+  tags: Advertising, Google APIs, Stack Network, Stack, API Service Provider, API
+    Provider, Profiles, Service API, Relative Data
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accounts-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accounts-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountid-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountidadclients-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountidadclientsadclientid-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountidadclientsadclientidadunits-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountidadclientsadclientidadunits-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountidadclientsadclientidadunits-patch-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountidadclientsadclientidadunits-post-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountidadclientsadclientidadunits-put-openapi.md
-- name: Google Adsense API Delete Ad Unit
+- name: Google Adsense API
   x-api-slug: google-adsense-api
-  description: Delete the specified ad unit from the specified publisher AdSense account.
+  description: ""
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-adsense.png
   humanURL: https://developers.google.com/adsense/
-  baseURL: https://///accounts/{accountId}/adclients/{adClientId}/adunits/{adUnitId}
-  tags: Advertising,Units
+  baseURL: https:///
+  tags: Advertising, Google APIs, Stack Network, Stack, API Service Provider, API
+    Provider, Profiles, Service API, Relative Data
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accounts-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accounts-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountid-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountidadclients-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountidadclientsadclientid-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountidadclientsadclientidadunits-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountidadclientsadclientidadunits-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountidadclientsadclientidadunits-patch-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountidadclientsadclientidadunits-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountidadclientsadclientidadunits-put-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountidadclientsadclientidadunitsadunitid-delete-openapi.md
-- name: Google Adsense API Get Ad Unit
+- name: Google Adsense API
   x-api-slug: google-adsense-api
-  description: Get the specified host ad unit in this AdSense account.
+  description: ""
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-adsense.png
   humanURL: https://developers.google.com/adsense/
-  baseURL: https://///accounts/{accountId}/adclients/{adClientId}/adunits/{adUnitId}
-  tags: Advertising,Units
+  baseURL: https:///
+  tags: Advertising, Google APIs, Stack Network, Stack, API Service Provider, API
+    Provider, Profiles, Service API, Relative Data
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accounts-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accounts-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountid-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountidadclients-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountidadclientsadclientid-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountidadclientsadclientidadunits-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountidadclientsadclientidadunits-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountidadclientsadclientidadunits-patch-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountidadclientsadclientidadunits-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountidadclientsadclientidadunits-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountidadclientsadclientidadunitsadunitid-delete-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountidadclientsadclientidadunitsadunitid-get-openapi.md
-- name: Google Adsense API Get Ad Unit Code
+- name: Google Adsense API
   x-api-slug: google-adsense-api
-  description: Get ad code for the specified ad unit, attaching the specified host
-    custom channels.
+  description: ""
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-adsense.png
   humanURL: https://developers.google.com/adsense/
-  baseURL: https://///accounts/{accountId}/adclients/{adClientId}/adunits/{adUnitId}/adcode
-  tags: Advertising,Units
+  baseURL: https:///
+  tags: Advertising, Google APIs, Stack Network, Stack, API Service Provider, API
+    Provider, Profiles, Service API, Relative Data
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accounts-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accounts-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountid-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountidadclients-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountidadclientsadclientid-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountidadclientsadclientidadunits-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountidadclientsadclientidadunits-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountidadclientsadclientidadunits-patch-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountidadclientsadclientidadunits-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountidadclientsadclientidadunits-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountidadclientsadclientidadunitsadunitid-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountidadclientsadclientidadunitsadunitid-get-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountidadclientsadclientidadunitsadunitidadcode-get-openapi.md
-- name: Google Adsense API Generate Report
+- name: Google Adsense API
   x-api-slug: google-adsense-api
-  description: Generate an AdSense report based on the report request sent in the
-    query parameters. Returns the result as JSON; to retrieve output in CSV format
-    specify "alt=csv" as a query parameter.
+  description: ""
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-adsense.png
   humanURL: https://developers.google.com/adsense/
-  baseURL: https://///accounts/{accountId}/reports
-  tags: Advertising,Report
+  baseURL: https:///
+  tags: Advertising, Google APIs, Stack Network, Stack, API Service Provider, API
+    Provider, Profiles, Service API, Relative Data
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accounts-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accounts-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountid-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountidadclients-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountidadclientsadclientid-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountidadclientsadclientidadunits-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountidadclientsadclientidadunits-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountidadclientsadclientidadunits-patch-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountidadclientsadclientidadunits-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountidadclientsadclientidadunits-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountidadclientsadclientidadunitsadunitid-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountidadclientsadclientidadunitsadunitid-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountidadclientsadclientidadunitsadunitidadcode-get-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountidreports-get-openapi.md
-- name: Google Adsense API Get Ad Clients
+- name: Google Adsense API
   x-api-slug: google-adsense-api
-  description: List all host ad clients in this AdSense account.
+  description: ""
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-adsense.png
   humanURL: https://developers.google.com/adsense/
-  baseURL: https://///adclients
-  tags: Advertising,Clients
+  baseURL: https:///
+  tags: Advertising, Google APIs, Stack Network, Stack, API Service Provider, API
+    Provider, Profiles, Service API, Relative Data
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accounts-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accounts-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountid-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountidadclients-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountidadclientsadclientid-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountidadclientsadclientidadunits-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountidadclientsadclientidadunits-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountidadclientsadclientidadunits-patch-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountidadclientsadclientidadunits-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountidadclientsadclientidadunits-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountidadclientsadclientidadunitsadunitid-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountidadclientsadclientidadunitsadunitid-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountidadclientsadclientidadunitsadunitidadcode-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountidreports-get-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/adclients-get-openapi.md
-- name: Google Adsense API Get Ad Client
+- name: Google Adsense API
   x-api-slug: google-adsense-api
-  description: Get information about one of the ad clients in the Host AdSense account.
+  description: ""
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-adsense.png
   humanURL: https://developers.google.com/adsense/
-  baseURL: https://///adclients/{adClientId}
-  tags: Advertising,Clients
+  baseURL: https:///
+  tags: Advertising, Google APIs, Stack Network, Stack, API Service Provider, API
+    Provider, Profiles, Service API, Relative Data
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accounts-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accounts-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountid-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountidadclients-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountidadclientsadclientid-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountidadclientsadclientidadunits-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountidadclientsadclientidadunits-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountidadclientsadclientidadunits-patch-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountidadclientsadclientidadunits-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountidadclientsadclientidadunits-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountidadclientsadclientidadunitsadunitid-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountidadclientsadclientidadunitsadunitid-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountidadclientsadclientidadunitsadunitidadcode-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountidreports-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/adclients-get-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/adclientsadclientid-get-openapi.md
-- name: Google Adsense API Get Custom Channels
+- name: Google Adsense API
   x-api-slug: google-adsense-api
-  description: List all host custom channels in this AdSense account.
+  description: ""
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-adsense.png
   humanURL: https://developers.google.com/adsense/
-  baseURL: https://///adclients/{adClientId}/customchannels
-  tags: Advertising,Channels
+  baseURL: https:///
+  tags: Advertising, Google APIs, Stack Network, Stack, API Service Provider, API
+    Provider, Profiles, Service API, Relative Data
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accounts-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accounts-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountid-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountidadclients-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountidadclientsadclientid-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountidadclientsadclientidadunits-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountidadclientsadclientidadunits-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountidadclientsadclientidadunits-patch-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountidadclientsadclientidadunits-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountidadclientsadclientidadunits-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountidadclientsadclientidadunitsadunitid-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountidadclientsadclientidadunitsadunitid-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountidadclientsadclientidadunitsadunitidadcode-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountidreports-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/adclients-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/adclientsadclientid-get-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/adclientsadclientidcustomchannels-get-openapi.md
-- name: Google Adsense API Update Custom Channels
+- name: Google Adsense API
   x-api-slug: google-adsense-api
-  description: Update a custom channel in the host AdSense account. This method supports
-    patch semantics.
+  description: ""
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-adsense.png
   humanURL: https://developers.google.com/adsense/
-  baseURL: https://///adclients/{adClientId}/customchannels
-  tags: Advertising,Channels
+  baseURL: https:///
+  tags: Advertising, Google APIs, Stack Network, Stack, API Service Provider, API
+    Provider, Profiles, Service API, Relative Data
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accounts-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accounts-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountid-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountidadclients-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountidadclientsadclientid-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountidadclientsadclientidadunits-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountidadclientsadclientidadunits-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountidadclientsadclientidadunits-patch-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountidadclientsadclientidadunits-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountidadclientsadclientidadunits-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountidadclientsadclientidadunitsadunitid-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountidadclientsadclientidadunitsadunitid-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountidadclientsadclientidadunitsadunitidadcode-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountidreports-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/adclients-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/adclientsadclientid-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/adclientsadclientidcustomchannels-get-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/adclientsadclientidcustomchannels-patch-openapi.md
-- name: Google Adsense API Create Custom Channels
+- name: Google Adsense API
   x-api-slug: google-adsense-api
-  description: Add a new custom channel to the host AdSense account.
+  description: ""
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-adsense.png
   humanURL: https://developers.google.com/adsense/
-  baseURL: https://///adclients/{adClientId}/customchannels
-  tags: Advertising,Channels
+  baseURL: https:///
+  tags: Advertising, Google APIs, Stack Network, Stack, API Service Provider, API
+    Provider, Profiles, Service API, Relative Data
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accounts-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accounts-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountid-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountidadclients-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountidadclientsadclientid-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountidadclientsadclientidadunits-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountidadclientsadclientidadunits-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountidadclientsadclientidadunits-patch-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountidadclientsadclientidadunits-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountidadclientsadclientidadunits-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountidadclientsadclientidadunitsadunitid-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountidadclientsadclientidadunitsadunitid-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountidadclientsadclientidadunitsadunitidadcode-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountidreports-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/adclients-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/adclientsadclientid-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/adclientsadclientidcustomchannels-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/adclientsadclientidcustomchannels-patch-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/adclientsadclientidcustomchannels-post-openapi.md
-- name: Google Adsense API Update Custom Channel
+- name: Google Adsense API
   x-api-slug: google-adsense-api
-  description: Update a custom channel in the host AdSense account.
+  description: ""
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-adsense.png
   humanURL: https://developers.google.com/adsense/
-  baseURL: https://///adclients/{adClientId}/customchannels
-  tags: Advertising,Channels
+  baseURL: https:///
+  tags: Advertising, Google APIs, Stack Network, Stack, API Service Provider, API
+    Provider, Profiles, Service API, Relative Data
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accounts-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accounts-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountid-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountidadclients-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountidadclientsadclientid-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountidadclientsadclientidadunits-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountidadclientsadclientidadunits-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountidadclientsadclientidadunits-patch-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountidadclientsadclientidadunits-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountidadclientsadclientidadunits-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountidadclientsadclientidadunitsadunitid-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountidadclientsadclientidadunitsadunitid-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountidadclientsadclientidadunitsadunitidadcode-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountidreports-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/adclients-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/adclientsadclientid-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/adclientsadclientidcustomchannels-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/adclientsadclientidcustomchannels-patch-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/adclientsadclientidcustomchannels-post-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/adclientsadclientidcustomchannels-put-openapi.md
-- name: Google Adsense API Delete Custom Channel
+- name: Google Adsense API
   x-api-slug: google-adsense-api
-  description: Delete a specific custom channel from the host AdSense account.
+  description: ""
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-adsense.png
   humanURL: https://developers.google.com/adsense/
-  baseURL: https://///adclients/{adClientId}/customchannels/{customChannelId}
-  tags: Advertising,Channels
+  baseURL: https:///
+  tags: Advertising, Google APIs, Stack Network, Stack, API Service Provider, API
+    Provider, Profiles, Service API, Relative Data
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accounts-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accounts-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountid-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountidadclients-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountidadclientsadclientid-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountidadclientsadclientidadunits-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountidadclientsadclientidadunits-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountidadclientsadclientidadunits-patch-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountidadclientsadclientidadunits-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountidadclientsadclientidadunits-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountidadclientsadclientidadunitsadunitid-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountidadclientsadclientidadunitsadunitid-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountidadclientsadclientidadunitsadunitidadcode-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountidreports-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/adclients-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/adclientsadclientid-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/adclientsadclientidcustomchannels-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/adclientsadclientidcustomchannels-patch-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/adclientsadclientidcustomchannels-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/adclientsadclientidcustomchannels-put-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/adclientsadclientidcustomchannelscustomchannelid-delete-openapi.md
-- name: Google Adsense API Get Custom Channel
+- name: Google Adsense API
   x-api-slug: google-adsense-api
-  description: Get a specific custom channel from the host AdSense account.
+  description: ""
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-adsense.png
   humanURL: https://developers.google.com/adsense/
-  baseURL: https://///adclients/{adClientId}/customchannels/{customChannelId}
-  tags: Advertising,Channels
+  baseURL: https:///
+  tags: Advertising, Google APIs, Stack Network, Stack, API Service Provider, API
+    Provider, Profiles, Service API, Relative Data
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accounts-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accounts-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountid-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountidadclients-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountidadclientsadclientid-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountidadclientsadclientidadunits-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountidadclientsadclientidadunits-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountidadclientsadclientidadunits-patch-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountidadclientsadclientidadunits-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountidadclientsadclientidadunits-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountidadclientsadclientidadunitsadunitid-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountidadclientsadclientidadunitsadunitid-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountidadclientsadclientidadunitsadunitidadcode-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountidreports-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/adclients-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/adclientsadclientid-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/adclientsadclientidcustomchannels-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/adclientsadclientidcustomchannels-patch-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/adclientsadclientidcustomchannels-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/adclientsadclientidcustomchannels-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/adclientsadclientidcustomchannelscustomchannelid-delete-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/adclientsadclientidcustomchannelscustomchannelid-get-openapi.md
-- name: Google Adsense API Get URL Channels
+- name: Google Adsense API
   x-api-slug: google-adsense-api
-  description: List all host URL channels in the host AdSense account.
+  description: ""
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-adsense.png
   humanURL: https://developers.google.com/adsense/
-  baseURL: https://///adclients/{adClientId}/urlchannels
-  tags: Advertising,Channels
+  baseURL: https:///
+  tags: Advertising, Google APIs, Stack Network, Stack, API Service Provider, API
+    Provider, Profiles, Service API, Relative Data
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accounts-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accounts-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountid-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountidadclients-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountidadclientsadclientid-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountidadclientsadclientidadunits-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountidadclientsadclientidadunits-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountidadclientsadclientidadunits-patch-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountidadclientsadclientidadunits-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountidadclientsadclientidadunits-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountidadclientsadclientidadunitsadunitid-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountidadclientsadclientidadunitsadunitid-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountidadclientsadclientidadunitsadunitidadcode-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountidreports-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/adclients-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/adclientsadclientid-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/adclientsadclientidcustomchannels-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/adclientsadclientidcustomchannels-patch-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/adclientsadclientidcustomchannels-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/adclientsadclientidcustomchannels-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/adclientsadclientidcustomchannelscustomchannelid-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/adclientsadclientidcustomchannelscustomchannelid-get-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/adclientsadclientidurlchannels-get-openapi.md
-- name: Google Adsense API Add URL Channel
+- name: Google Adsense API
   x-api-slug: google-adsense-api
-  description: Add a new URL channel to the host AdSense account.
+  description: ""
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-adsense.png
   humanURL: https://developers.google.com/adsense/
-  baseURL: https://///adclients/{adClientId}/urlchannels
-  tags: Advertising,Channels
+  baseURL: https:///
+  tags: Advertising, Google APIs, Stack Network, Stack, API Service Provider, API
+    Provider, Profiles, Service API, Relative Data
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accounts-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accounts-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountid-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountidadclients-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountidadclientsadclientid-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountidadclientsadclientidadunits-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountidadclientsadclientidadunits-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountidadclientsadclientidadunits-patch-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountidadclientsadclientidadunits-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountidadclientsadclientidadunits-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountidadclientsadclientidadunitsadunitid-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountidadclientsadclientidadunitsadunitid-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountidadclientsadclientidadunitsadunitidadcode-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountidreports-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/adclients-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/adclientsadclientid-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/adclientsadclientidcustomchannels-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/adclientsadclientidcustomchannels-patch-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/adclientsadclientidcustomchannels-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/adclientsadclientidcustomchannels-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/adclientsadclientidcustomchannelscustomchannelid-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/adclientsadclientidcustomchannelscustomchannelid-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/adclientsadclientidurlchannels-get-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/adclientsadclientidurlchannels-post-openapi.md
-- name: Google Adsense API Delete URL Channel
+- name: Google Adsense API
   x-api-slug: google-adsense-api
-  description: Delete a URL channel from the host AdSense account.
+  description: ""
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-adsense.png
   humanURL: https://developers.google.com/adsense/
-  baseURL: https://///adclients/{adClientId}/urlchannels/{urlChannelId}
-  tags: Advertising,Channels
+  baseURL: https:///
+  tags: Advertising, Google APIs, Stack Network, Stack, API Service Provider, API
+    Provider, Profiles, Service API, Relative Data
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accounts-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accounts-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountid-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountidadclients-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountidadclientsadclientid-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountidadclientsadclientidadunits-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountidadclientsadclientidadunits-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountidadclientsadclientidadunits-patch-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountidadclientsadclientidadunits-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountidadclientsadclientidadunits-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountidadclientsadclientidadunitsadunitid-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountidadclientsadclientidadunitsadunitid-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountidadclientsadclientidadunitsadunitidadcode-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountidreports-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/adclients-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/adclientsadclientid-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/adclientsadclientidcustomchannels-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/adclientsadclientidcustomchannels-patch-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/adclientsadclientidcustomchannels-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/adclientsadclientidcustomchannels-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/adclientsadclientidcustomchannelscustomchannelid-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/adclientsadclientidcustomchannelscustomchannelid-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/adclientsadclientidurlchannels-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/adclientsadclientidurlchannels-post-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/adclientsadclientidurlchannelsurlchannelid-delete-openapi.md
-- name: Google Adsense API Create Session
+- name: Google Adsense API
   x-api-slug: google-adsense-api
-  description: Create an association session for initiating an association with an
-    AdSense user.
+  description: ""
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-adsense.png
   humanURL: https://developers.google.com/adsense/
-  baseURL: https://///associationsessions/start
-  tags: Advertising,Session
+  baseURL: https:///
+  tags: Advertising, Google APIs, Stack Network, Stack, API Service Provider, API
+    Provider, Profiles, Service API, Relative Data
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accounts-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accounts-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountid-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountidadclients-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountidadclientsadclientid-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountidadclientsadclientidadunits-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountidadclientsadclientidadunits-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountidadclientsadclientidadunits-patch-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountidadclientsadclientidadunits-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountidadclientsadclientidadunits-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountidadclientsadclientidadunitsadunitid-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountidadclientsadclientidadunitsadunitid-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountidadclientsadclientidadunitsadunitidadcode-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountidreports-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/adclients-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/adclientsadclientid-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/adclientsadclientidcustomchannels-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/adclientsadclientidcustomchannels-patch-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/adclientsadclientidcustomchannels-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/adclientsadclientidcustomchannels-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/adclientsadclientidcustomchannelscustomchannelid-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/adclientsadclientidcustomchannelscustomchannelid-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/adclientsadclientidurlchannels-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/adclientsadclientidurlchannels-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/adclientsadclientidurlchannelsurlchannelid-delete-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/associationsessionsstart-get-openapi.md
-- name: Google Adsense API Verify Session
+- name: Google Adsense API
   x-api-slug: google-adsense-api
-  description: Verify an association session after the association callback returns
-    from AdSense signup.
+  description: ""
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-adsense.png
   humanURL: https://developers.google.com/adsense/
-  baseURL: https://///associationsessions/verify
-  tags: Advertising,Session
+  baseURL: https:///
+  tags: Advertising, Google APIs, Stack Network, Stack, API Service Provider, API
+    Provider, Profiles, Service API, Relative Data
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accounts-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accounts-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountid-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountidadclients-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountidadclientsadclientid-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountidadclientsadclientidadunits-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountidadclientsadclientidadunits-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountidadclientsadclientidadunits-patch-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountidadclientsadclientidadunits-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountidadclientsadclientidadunits-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountidadclientsadclientidadunitsadunitid-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountidadclientsadclientidadunitsadunitid-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountidadclientsadclientidadunitsadunitidadcode-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountidreports-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/adclients-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/adclientsadclientid-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/adclientsadclientidcustomchannels-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/adclientsadclientidcustomchannels-patch-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/adclientsadclientidcustomchannels-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/adclientsadclientidcustomchannels-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/adclientsadclientidcustomchannelscustomchannelid-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/adclientsadclientidcustomchannelscustomchannelid-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/adclientsadclientidurlchannels-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/adclientsadclientidurlchannels-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/adclientsadclientidurlchannelsurlchannelid-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/associationsessionsstart-get-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/associationsessionsverify-get-openapi.md
-- name: Google Adsense API Get Report
+- name: Google Adsense API
   x-api-slug: google-adsense-api
-  description: Generate an AdSense report based on the report request sent in the
-    query parameters. Returns the result as JSON; to retrieve output in CSV format
-    specify "alt=csv" as a query parameter.
+  description: ""
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-adsense.png
   humanURL: https://developers.google.com/adsense/
-  baseURL: https://///reports
-  tags: Advertising,Report
+  baseURL: https:///
+  tags: Advertising, Google APIs, Stack Network, Stack, API Service Provider, API
+    Provider, Profiles, Service API, Relative Data
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accounts-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accounts-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountid-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountidadclients-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountidadclientsadclientid-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountidadclientsadclientidadunits-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountidadclientsadclientidadunits-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountidadclientsadclientidadunits-patch-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountidadclientsadclientidadunits-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountidadclientsadclientidadunits-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountidadclientsadclientidadunitsadunitid-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountidadclientsadclientidadunitsadunitid-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountidadclientsadclientidadunitsadunitidadcode-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/accountsaccountidreports-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/adclients-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/adclientsadclientid-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/adclientsadclientidcustomchannels-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/adclientsadclientidcustomchannels-patch-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/adclientsadclientidcustomchannels-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/adclientsadclientidcustomchannels-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/adclientsadclientidcustomchannelscustomchannelid-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/adclientsadclientidcustomchannelscustomchannelid-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/adclientsadclientidurlchannels-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/adclientsadclientidurlchannels-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/adclientsadclientidurlchannelsurlchannelid-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/associationsessionsstart-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/associationsessionsverify-get-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/reports-get-openapi.md
 - name: Google Adsense API
@@ -305,6 +1110,10 @@ apis:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://gmail.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://google.adsense.stack.network
 - type: x-blog
   url: http://googleadsdeveloper.blogspot.com/search/label/adsense_api
 - type: x-blog-rss
