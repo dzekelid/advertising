@@ -1,48 +1,80 @@
 {
-	"name": "AdStage",
-	"x-slug": "adstage",
-	"description": "Powering marketers with paid social and PPC reporting and automation software. AdStage is connecting performance marketers to the ad data they need to analyze, optimize, and report on their paid media campaigns. Get started with free 14-day trial!",
-	"image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/28839-www-adstage-io.jpg",
-	"x-kinRank": "7",
-	"x-alexaRank": "123134",
+	"name": "Airpush",
+	"x-slug": "airpush",
+	"description": "World class mobile ad network and mobile app monetization using first-party data and the most advanced targeting and ad formats. The worlds top advertisers rely on Airpush to reach mobile users and top developers and publishers use Airpush for the hig...",
+	"image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/1863-airpush.jpg",
+	"x-kinRank": "8",
+	"x-alexaRank": "223652",
 	"tags": "Advertising",
 	"created": "2018-08-25",
 	"modified": "2018-08-25",
-	"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/advertising\/master\/_listings\/adstage\/apis.md",
+	"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/advertising\/master\/_listings\/airpush\/apis.md",
 	"specificationVersion": "0.14",
 	"apis": [
 		{
-			"name": "AdStage",
-			"x-api-slug": "adstage",
-			"description": "Powering marketers with paid social and PPC reporting and automation software. AdStage is connecting performance marketers to the ad data they need to analyze, optimize, and report on their paid media campaigns. Get started with free 14-day trial!",
-			"image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/28839-www-adstage-io.jpg",
-			"humanURL": "https:\/\/www.adstage.io",
+			"name": "Airpush Publisher API",
+			"x-api-slug": "airpush-publisher-api",
+			"description": "World class mobile ad network and mobile app monetization using first-party data and the most advanced targeting and ad formats. The worlds top advertisers rely on Airpush to reach mobile users and top developers and publishers use Airpush for the hig...",
+			"image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/1863-airpush.jpg",
+			"humanURL": "http:\/\/www.airpush.com\/",
 			"baseURL": "https:\/\/\/",
 			"tags": "Advertising",
 			"properties": [
 				{
 					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/advertising\/master\/_listings\/adstage\/openapi.md"
+					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/advertising\/master\/_listings\/airpush\/openapi.md"
 				}
 			]
 		}
 	],
 	"x-common": [
 		{
-			"type": "x-documentation",
-			"url": "https:\/\/adstageapi.docs.apiary.io\/#reference"
+			"type": "x-blog",
+			"url": "http:\/\/www.airpush.com\/category\/airpush-mobile-advertising-blog\/"
 		},
 		{
 			"type": "x-crunchbase",
-			"url": "https:\/\/crunchbase.com\/organization\/adstage"
+			"url": "http:\/\/www.crunchbase.com\/company\/airpush"
+		},
+		{
+			"type": "x-crunchbase",
+			"url": "https:\/\/crunchbase.com\/organization\/airpush"
+		},
+		{
+			"type": "x-developer",
+			"url": "http:\/\/www.airpush.com\/developers\/"
+		},
+		{
+			"type": "x-email",
+			"url": "o.vladimir@airpush.com"
+		},
+		{
+			"type": "x-email",
+			"url": "legal@airpush.com"
+		},
+		{
+			"type": "x-email",
+			"url": "childapp@airpush.com"
+		},
+		{
+			"type": "x-email",
+			"url": "support@airpush.com"
+		},
+		{
+			"type": "x-email",
+			"url": "privacy@airpush.com"
+		},
+		{
+			"type": "x-terms-of-service",
+			"url": "http:\/\/www.airpush.com\/siteterms\/"
 		},
 		{
 			"type": "x-twitter",
-			"url": "https:\/\/twitter.com\/adstage"
+			"url": "http:\/\/twitter.com\/AirPushAds"
 		},
 		{
 			"type": "x-website",
-			"url": "https:\/\/www.adstage.io"
+			"url": "http:\/\/www.airpush.com\/"
 		}
 	],
 	"include": [

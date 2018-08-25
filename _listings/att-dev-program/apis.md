@@ -7,25 +7,11 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/156-at&t-d
 x-kinRank: "8"
 x-alexaRank: "691"
 tags: Advertising
-created: "2018-08-24"
-modified: "2018-08-24"
+created: "2018-08-25"
+modified: "2018-08-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/att-dev-program/apis.md
 specificationVersion: "0.14"
 apis:
-- name: AT&T API
-  x-api-slug: att-api
-  description: this-is-a-complete-definition-of-the-att-api--needs-to-be-broken-into-separate-endpoints-
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/156-at&t-dev-program.jpg
-  humanURL: http://att.com
-  baseURL: https://api.att.com//
-  tags: SMS, Cloud, Storage, Notifications, Voice, MMS, Stack Network, Telecommunications,
-    Media, ISP, API Provider, Telecommunications, Messages, Messages, Profiles, Service
-    API, Networks
-  properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/att-dev-program/rest1ads-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/att-dev-program/rest1ads-get-openapi.md
 - name: AT&T API
   x-api-slug: att-api
   description: AT&T Official Site. Premium entertainment, the latest cell phones &
