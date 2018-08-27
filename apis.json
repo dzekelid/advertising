@@ -8,6 +8,21 @@
 	"specificationVersion": "0.14",
 	"apis": [
 		{
+			"name": "NPR",
+			"x-api-slug": "npr",
+			"description": "NPR delivers breaking national and world news. Also top stories from business, politics, health, science, technology, music, arts and culture. Subscribe to podcasts and RSS feeds.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/141-npr.jpg",
+			"humanURL": "http://npr.org",
+			"baseURL": "https://api.npr.org//",
+			"tags": "Advertising",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/npr/openapi.md"
+				}
+			]
+		},
+		{
 			"name": "AT&T Dev Program",
 			"x-api-slug": "att-dev-program",
 			"description": "AT&T Official Site. Premium entertainment, the latest cell phones & tablets, unlimited data plans, and high-speed internet. Join the nations best network today!",
@@ -19,6 +34,186 @@
 				{
 					"type": "x-openapi-spec",
 					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/att-dev-program/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Diffbot",
+			"x-api-slug": "diffbot",
+			"description": "Never write another web scraper. Diffbot automates web data extraction from any website using AI, computer vision, &amp; machine learning.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/181-diffbot.jpg",
+			"humanURL": "http://www.diffbot.com/our-apis/follow/",
+			"baseURL": "https:////",
+			"tags": "Advertising",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/diffbot/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Disqus",
+			"x-api-slug": "disqus",
+			"description": "Disqus offers the best add-on tools for websites to increase engagement. We help publishers power online discussions with comments and earn revenue with native advertising.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/182-disqus.jpg",
+			"humanURL": "https://disqus.com/",
+			"baseURL": "https:///",
+			"tags": "Advertising",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/disqus/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Yahoo",
+			"x-api-slug": "yahoo",
+			"description": "News, email and search are just the beginning. Discover more every day. Find your yodel.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/201-yahoo.jpg",
+			"humanURL": "http://www.yahoo.com",
+			"baseURL": "https://weather.yahooapis.com//",
+			"tags": "Advertising",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/yahoo/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Foursquare",
+			"x-api-slug": "foursquare",
+			"description": "Foursquare helps you find the perfect places to go with friends. Discover the best food, nightlife, and entertainment in your area.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/203-foursquare.jpg",
+			"humanURL": "http://blog.foursquare.com",
+			"baseURL": "https:///",
+			"tags": "Advertising",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/foursquare/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Twitter",
+			"x-api-slug": "twitter",
+			"description": "From breaking news and entertainment to sports and politics, get the full story with all the live commentary.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twitter-logo.png",
+			"humanURL": "https://twitter.com/",
+			"baseURL": "https://api.twitter.com//1.1",
+			"tags": "Advertising",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/twitter/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "46elks",
+			"x-api-slug": "46elks",
+			"description": "Adding SMS and Voice to your application or service should be easy. Phone calls, SMS & MMS in one easy API. For developers, built by developers.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/289-46elks.jpg",
+			"humanURL": "http://46elks.com/",
+			"baseURL": "https:///",
+			"tags": "Advertising",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/46elks/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Mailjet",
+			"x-api-slug": "mailjet",
+			"description": "Streamline your emailing and boost your sales with Mailjet. We serve all your email and SMS needs with one simple and powerful solution. You can try it now with 6000 emails/mo absolutely free. Sign up now, or read more about how we can help your busine...",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/843-mailjet.jpg",
+			"humanURL": "http://mailjet.com",
+			"baseURL": "https://api.mailjet.com/v3/REST/",
+			"tags": "Advertising",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/mailjet/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "OnePageCRM",
+			"x-api-slug": "onepagecrm",
+			"description": "OnePageCRM is a simple online sales CRM for you & your sales team. Focus on your Next Action to easily convert leads into customers and grow your business.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/874-onepagecrm.jpg",
+			"humanURL": "http://www.onepagecrm.com",
+			"baseURL": "https:///",
+			"tags": "Advertising",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/onepagecrm/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Prosperent",
+			"x-api-slug": "prosperent",
+			"description": "Prosperent helps bloggers, forums, and apps promote and recommend products from top retailers and earn commissions from purchases.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/904-prosperent.jpg",
+			"humanURL": "http://prosperent.com",
+			"baseURL": "https:///",
+			"tags": "Advertising",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/prosperent/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Freespee",
+			"x-api-slug": "freespee",
+			"description": "Freespee is the only customer communication platform that allows businesses and their website visitors or app users to talk in real-time via any interface, typed or spoken.    Freespee???s Conversation Cloud is designed to humanise online commerce operat...",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1061-freespee.jpg",
+			"humanURL": "http://support.freespee.com/hc/en-us/categories/preview?developers",
+			"baseURL": "https:///",
+			"tags": "Advertising",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/freespee/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Trafficspaces",
+			"x-api-slug": "trafficspaces",
+			"description": "&lt;p&gt;Trafficspaces is a hosted ad management service for publishers. It helps publishers. Convert more advertisers through a user friendly, white labelled, self-service interface. Increase revenue by helping to reduce the dependence on ad networks. Provide ad management services easily through an automated sales, campaign management and reporting workflow. Trafficspaces was designed as an easy-to-use alternative to Google Ad Manager and OpenX.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/1181_logo.png",
+			"humanURL": "http://support.trafficspaces.com/kb/api/api-introduction",
+			"baseURL": "https:///",
+			"tags": "Advertising",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/trafficspaces/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Rejoiner",
+			"x-api-slug": "rejoiner",
+			"description": "Rejoiner is a lifecycle email marketing software designed specifically to help online retailers and eCommerce companies reduce their cart abandonment rate and retain their best customers.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1358-rejoiner.jpg",
+			"humanURL": "http://rejoiner.com",
+			"baseURL": "https:///",
+			"tags": "Advertising",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/rejoiner/openapi.md"
 				}
 			]
 		},
@@ -36,17 +231,202 @@
 					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/airpush/openapi.md"
 				}
 			]
+		},
+		{
+			"name": "Affilae",
+			"x-api-slug": "affilae",
+			"description": "Create, track & manage easily your own affiliate network. Affilae is a SaaS affiliate marketing software improved by hundreds advertisers around the world.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1999-affilae.jpg",
+			"humanURL": "https://affilae.com/en",
+			"baseURL": "https:///",
+			"tags": "Advertising",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/affilae/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Adbeat",
+			"x-api-slug": "adbeat",
+			"description": "Instantly uncover any advertisers online strategy, See advertisers that are spending on each publisher, and Instantly find top Display ads on 50,000+ publishers.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2154-adbeat.jpg",
+			"humanURL": "http://www.adbeat.com/",
+			"baseURL": "https:///",
+			"tags": "Advertising",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/adbeat/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Instagram",
+			"x-api-slug": "instagram",
+			"description": "Instagram is an online mobile photo-sharing, video-sharing and social networking service that enables its users to take pictures and videos, and share them on a variety of social networking platforms, such as Facebook, Twitter, Tumblr and Flickr. A distinctive feature is that it confines photos to a square shape, similar to Kodak Instamatic and Polaroid images, in contrast to the 4:3 aspect ratio typically used by mobile device cameras. Users can also apply digital filters to their images. The maximum duration for Instagram videos is 15 seconds.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/glyph-logo_May2016_200.png",
+			"humanURL": "http://instagram.com",
+			"baseURL": "https:///",
+			"tags": "Advertising",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/instagram/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Google Doubleclick",
+			"x-api-slug": "google-doubleclick",
+			"description": "The Ad Exchange Buyer REST API allows your Real-Time Bidding application to access and update account information and to submit creatives. The API also allows an application (whether it does static bidding or real-time bidding) to discover direct deals that sellers make available.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-double-click.png",
+			"humanURL": "https://www.doubleclickbygoogle.com/",
+			"baseURL": "https:///",
+			"tags": "Advertising",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-doubleclick/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Google Adsense",
+			"x-api-slug": "google-adsense",
+			"description": "AdSense is a free, simple way to make money online by placing ads on your website. Ads are reviewed to ensure they???re high quality and relevant to your content or audience, even when viewed on smartphones and tablets. The result? You can make more money online.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-adsense.png",
+			"humanURL": "https://developers.google.com/adsense/",
+			"baseURL": "https:///",
+			"tags": "Advertising",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Google AdWords",
+			"x-api-slug": "google-adwords",
+			"description": "Google AdWords is an online advertising service developed by Google, where advertisers pay to display brief advertising copy, product listings, and video content within the Google ad network to web users. Google AdWords system is based partly on cookies and partly on keywords determined by advertisers. Google uses these characteristics to place advertising copy on pages where they think it might be relevant. Advertisers pay when users divert their browsing to click on the advertising copy. Partner websites receive a portion of the generated income.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-adwords.png",
+			"humanURL": "https://developers.google.com/adwords/",
+			"baseURL": "https:///",
+			"tags": "Advertising",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adwords/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AdStage",
+			"x-api-slug": "adstage",
+			"description": "Powering marketers with paid social and PPC reporting and automation software. AdStage is connecting performance marketers to the ad data they need to analyze, optimize, and report on their paid media campaigns. Get started with free 14-day trial!",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28839-www-adstage-io.jpg",
+			"humanURL": "https://www.adstage.io",
+			"baseURL": "https:///",
+			"tags": "Advertising",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/adstage/openapi.md"
+				}
+			]
 		}
 	],
 	"tags": "Advertising",
 	"include": [
 		{
+			"name": "NPR",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/npr/apis.yaml"
+		},
+		{
 			"name": "AT&T Dev Program",
 			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/att-dev-program/apis.yaml"
 		},
 		{
+			"name": "Diffbot",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/diffbot/apis.yaml"
+		},
+		{
+			"name": "Disqus",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/disqus/apis.yaml"
+		},
+		{
+			"name": "Yahoo",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/yahoo/apis.yaml"
+		},
+		{
+			"name": "Foursquare",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/foursquare/apis.yaml"
+		},
+		{
+			"name": "Twitter",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/twitter/apis.yaml"
+		},
+		{
+			"name": "46elks",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/46elks/apis.yaml"
+		},
+		{
+			"name": "Mailjet",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/mailjet/apis.yaml"
+		},
+		{
+			"name": "OnePageCRM",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/onepagecrm/apis.yaml"
+		},
+		{
+			"name": "Prosperent",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/prosperent/apis.yaml"
+		},
+		{
+			"name": "Freespee",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/freespee/apis.yaml"
+		},
+		{
+			"name": "Trafficspaces",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/trafficspaces/apis.yaml"
+		},
+		{
+			"name": "Rejoiner",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/rejoiner/apis.yaml"
+		},
+		{
 			"name": "Airpush",
 			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/airpush/apis.yaml"
+		},
+		{
+			"name": "Affilae",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/affilae/apis.yaml"
+		},
+		{
+			"name": "Adbeat",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/adbeat/apis.yaml"
+		},
+		{
+			"name": "Instagram",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/instagram/apis.yaml"
+		},
+		{
+			"name": "Google Doubleclick",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-doubleclick/apis.yaml"
+		},
+		{
+			"name": "Google Adsense",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adsense/apis.yaml"
+		},
+		{
+			"name": "Google AdWords",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/google-adwords/apis.yaml"
+		},
+		{
+			"name": "AdStage",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/adstage/apis.yaml"
 		}
 	]
 }

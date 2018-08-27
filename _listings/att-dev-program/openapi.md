@@ -12,3 +12,16 @@ produces:
 - application/json
 consumes:
 - application/json
+paths:
+  /rest/1/ads:
+    get:
+      summary: Get Ads
+      description: /rest/1/ads
+      operationId: rest1ads
+      x-api-path-slug: rest1ads-get
+      responses:
+        200:
+          description: OK
+      tags:
+      - Rest
+      - Ads

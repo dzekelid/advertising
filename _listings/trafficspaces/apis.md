@@ -11,8 +11,8 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/1
 x-kinRank: "7"
 x-alexaRank: "0"
 tags: Advertising
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/trafficspaces/apis.md
 specificationVersion: "0.14"
 apis: []

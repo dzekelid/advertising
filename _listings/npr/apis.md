@@ -8,8 +8,8 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/141-npr.jp
 x-kinRank: "9"
 x-alexaRank: "598"
 tags: Advertising
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/npr/apis.md
 specificationVersion: "0.14"
 apis:
@@ -32,6 +32,21 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/npr/sponsorshipv2ads-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/npr/sponsorshipv2ads-get-openapi.md
+- name: NPR One API Reference - Record tracking data for DAAST sponsorship units
+  x-api-slug: sponsorshipv2ads-post
+  description: |-
+    **Not** for use by NPR One clients (for whom sponsorship is already integrated into the Listening Service), this endpoint is designed to be used by our other client applications to submit tracking information for sponsorship units obtained from the `GET /sponsorship/v2/ads` endpoint.
+
+    The tracking information should be submitted in the body of the request in the form of a JSON object following the Collection.Doc+JSON specification.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/141-npr.jpg
+  humanURL: http://npr.org
+  baseURL: https://api.npr.org//
+  tags: News, Radio, Getting Started Example, Federal Government, Stack Network, Stack,
+    Mobile, Media, API Provider, Broadcasts, Profiles, Publish, General Data, Relative
+    Data, Service API, Pedestal, Relative StreamRank, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/npr/sponsorshipv2ads-post-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://nfusion.solutions.api.gallery.streamdata.io
