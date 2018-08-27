@@ -9,8 +9,8 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1863-airpu
 x-kinRank: "8"
 x-alexaRank: "223652"
 tags: Advertising
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/advertising/master/_listings/airpush/apis.md
 specificationVersion: "0.14"
 apis: []
